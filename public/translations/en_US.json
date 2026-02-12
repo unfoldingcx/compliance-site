@@ -1,43 +1,43 @@
 [
   {
     "category": "General and PSSI",
-    "question": "Do you have a security policy (PSSI) for managing your information system? If so, is it validated and supported by the executive management and based on the needs of stakeholders and standards 27001/27002?",
-    "answer": "Absolutely. We maintain a robust Information Security Policy (PSSI) that’s formally validated and championed by our executive leadership. It’s fully aligned with stakeholder requirements and calibrated against ISO 27001/27002 standards. We don’t just pay lip service—our top brass actively endorses and enforces this policy to ensure we meet the highest benchmarks in information security compliance."
+    "question": "Do you have a validated PSSI aligned with ISO 27001/27002?",
+    "answer": "Absolutely. We maintain a robust Information Security Policy (PSSI) that's formally validated and championed by our executive leadership. It's fully aligned with stakeholder requirements and calibrated against ISO 27001/27002 standards. We don't just pay lip service-our top brass actively endorses and enforces this policy to ensure we meet the highest benchmarks in information security compliance."
   },
   {
     "category": "General and PSSI",
-    "question": "Are computer security risks mapped and reviewed regularly? If so, how often?",
-    "answer": "Yes, we regularly map and reassess our computer security risks through a formalized review process. We conduct a comprehensive risk evaluation at least quarterly and perform ongoing monitoring in between. Given our workforce predominantly uses MacBooks—recognized for their robust security architecture—these reviews ensure any emerging threats are swiftly identified and mitigated. This proactive approach is baked into our overall risk management framework, giving our executive team clear visibility into our security posture at all times."
+    "question": "Are security risks mapped and reviewed regularly? How often?",
+    "answer": "Yes, we regularly map and reassess our computer security risks through a formalized review process. We conduct a comprehensive risk evaluation at least quarterly and perform ongoing monitoring in between. Given our workforce predominantly uses MacBooks-recognized for their robust security architecture-these reviews ensure any emerging threats are swiftly identified and mitigated. This proactive approach is baked into our overall risk management framework, giving our executive team clear visibility into our security posture at all times."
   },
   {
     "category": "General and PSSI",
-    "question": "Do you regularly evaluate the information security performance and the effectiveness of the information security management system?",
-    "answer": "We don’t maintain a fully structured or strictly scheduled approach to measuring the performance and effectiveness of our information security management system. However, we do conduct ad hoc reviews and perform risk-based assessments whenever critical changes occur or new threats emerge. This flexible methodology aligns with our lean software house model while still allowing us to respond quickly to potential security gaps. We are actively exploring ways to enhance this process and adopt a more formal evaluation cadence to meet evolving compliance expectations and stakeholder demands."
+    "question": "Do you regularly evaluate ISMS performance and effectiveness?",
+    "answer": "We don't maintain a fully structured or strictly scheduled approach to measuring the performance and effectiveness of our information security management system. However, we do conduct ad hoc reviews and perform risk-based assessments whenever critical changes occur or new threats emerge. This flexible methodology aligns with our lean software house model while still allowing us to respond quickly to potential security gaps. We are actively exploring ways to enhance this process and adopt a more formal evaluation cadence to meet evolving compliance expectations and stakeholder demands."
   },
   {
     "category": "General and PSSI",
-    "question": "Do you regularly assess the level of security through intrusion testing and vulnerability scanning? Do you correct detected vulnerabilities within less than 1 year?",
-    "answer": "Yes, we conduct intrusion testing and vulnerability scanning on a regular basis, leveraging strategic partnerships with industry leaders like Netcraft, Artillery IO, and Cloudflare’s Security Insights. Our track record with high-profile clients such as Netflix and Cartier underscores our commitment to rapid remediation: we typically address vulnerabilities well within a year, often resolving them in a matter of weeks or even days, depending on severity. This proactive stance helps us maintain a high-security standard and reinforce stakeholder confidence."
+    "question": "Do you run intrusion tests and vulnerability scans? Fix within 1 year?",
+    "answer": "Yes, we conduct intrusion testing and vulnerability scanning on a regular basis, leveraging strategic partnerships with industry leaders like Netcraft, Artillery IO, and Cloudflare's Security Insights. Our track record with high-profile clients such as Netflix and Cartier underscores our commitment to rapid remediation: we typically address vulnerabilities well within a year, often resolving them in a matter of weeks or even days, depending on severity. This proactive stance helps us maintain a high-security standard and reinforce stakeholder confidence."
   },
   {
     "category": "General and PSSI",
-    "question": "Do you conduct regular internal audits and controls to determine compliance with security requirements under the PSSI?",
+    "question": "Do you conduct regular internal audits for PSSI compliance?",
     "answer": "We do not currently conduct formal, recurring internal audits under our PSSI. However, we perform targeted evaluations and implement heightened security controls whenever we onboard new clients or begin projects with elevated risk profiles. This adaptive approach lets us right-size our compliance efforts while still addressing critical security requirements. As our organization grows, we are planning to establish a more structured, periodic audit process aligned with recognized best practices."
   },
   {
     "category": "General and PSSI",
-    "question": "Is an improvement approach in place to address and integrate non-conformities?",
-    "answer": "Yes, we have a responsive improvement mechanism in place that kicks in whenever non-conformities are identified. Although not fully formalized in a single, overarching process, we do systematically track findings and integrate necessary corrections into our workflows. This ensures continuous enhancement of our security posture and alignment with emerging best practices. We’re also exploring ways to further formalize this approach as part of our ongoing commitment to compliance."
+    "question": "Is an improvement approach in place for non-conformities?",
+    "answer": "Yes, we have a responsive improvement mechanism in place that kicks in whenever non-conformities are identified. Although not fully formalized in a single, overarching process, we do systematically track findings and integrate necessary corrections into our workflows. This ensures continuous enhancement of our security posture and alignment with emerging best practices. We're also exploring ways to further formalize this approach as part of our ongoing commitment to compliance."
   },
   {
     "category": "General and PSSI",
-    "question": "Have you obtained certification in the field of information systems security on the service scope (e.g. ISO 27001, SOC2 type 2)?",
-    "answer": "We have not yet pursued formal certifications such as ISO 27001 or SOC 2 on our service scope. However, we actively align our internal security practices with these frameworks’ guidelines to ensure a high level of protection. We are currently evaluating the potential benefits of obtaining an official certification and may seek one in the near future as part of our broader commitment to continuous security improvement and stakeholder assurance."
+    "question": "Do you hold ISO 27001, SOC2 type 2, or similar certifications?",
+    "answer": "We have not yet pursued formal certifications such as ISO 27001 or SOC 2 on our service scope. However, we actively align our internal security practices with these frameworks' guidelines to ensure a high level of protection. We are currently evaluating the potential benefits of obtaining an official certification and may seek one in the near future as part of our broader commitment to continuous security improvement and stakeholder assurance."
   },
   {
     "category": "General and PSSI",
-    "question": "Do you have an inventory of all your software and used components (e.g. libraries)?",
-    "answer": "Yes, we maintain a comprehensive, up-to-date inventory of all software and open-source libraries used throughout our organization, serving both security oversight and cost management objectives. In parallel, we run a stringent due diligence process before onboarding new tools or services—this includes GDPR reviews, anti-corruption checks, and vendor compliance assessments. This dual approach ensures we stay efficient while staying on the right side of critical regulations and standards."
+    "question": "Do you maintain an inventory of software and components (e.g. libraries)?",
+    "answer": "Yes, we maintain a comprehensive, up-to-date inventory of all software and open-source libraries used throughout our organization, serving both security oversight and cost management objectives. In parallel, we run a stringent due diligence process before onboarding new tools or services-this includes GDPR reviews, anti-corruption checks, and vendor compliance assessments. This dual approach ensures we stay efficient while staying on the right side of critical regulations and standards."
   },
   {
     "category": "User awareness and training",
@@ -46,13 +46,13 @@
   },
   {
     "category": "Access Authorization Management",
-    "question": "Have you defined authorization profiles? If so, do they respect the principle of least privilege and separation of duties?",
-    "answer": "Yes. We’ve defined well-structured authorization profiles that strictly adhere to the principle of least privilege and maintain clear separation of duties. This ensures each user’s privileges align exactly with their role, minimizing insider threats and preserving operational integrity."
+    "question": "Do authorization profiles follow least privilege and separation of duties?",
+    "answer": "Yes. We've defined well-structured authorization profiles that strictly adhere to the principle of least privilege and maintain clear separation of duties. This ensures each user's privileges align exactly with their role, minimizing insider threats and preserving operational integrity."
   },
   {
     "category": "Access Authorization Management",
-    "question": "Is a procedure for creating, modifying and deleting identifiers defined and implemented? If so, describe it.",
-    "answer": "Yes. We follow a documented identity lifecycle procedure. All user account requests—new, modified, or deleted—must be authorized by a designated manager and logged via our ticketing system. When employees change roles or leave the organization, we promptly revoke or adjust their credentials to prevent unauthorized access."
+    "question": "Procedure for creating, modifying and deleting identifiers? Describe.",
+    "answer": "Yes. We follow a documented identity lifecycle procedure. All user account requests-new, modified, or deleted-must be authorized by a designated manager and logged via our ticketing system. When employees change roles or leave the organization, we promptly revoke or adjust their credentials to prevent unauthorized access."
   },
   {
     "category": "Access Authorization Management",
@@ -61,12 +61,12 @@
   },
   {
     "category": "Access Authorization Management",
-    "question": "Have strong authentication means been put in place? Do these means rely on cryptographic mechanisms that comply with security recommendations, standards and state of the art such as RGS (General Security Repository) or CNIL recommendations? If so, description",
-    "answer": "Absolutely. We employ robust cryptographic standards—AES-256 encryption, secure TLS protocols, and advanced hashing algorithms like Argon2—to ensure data protection. These mechanisms align with recognized recommendations such as CNIL guidelines and the General Security Repository (RGS)."
+    "question": "Strong cryptographic auth aligned with RGS or CNIL?",
+    "answer": "Absolutely. We employ robust cryptographic standards-AES-256 encryption, secure TLS protocols, and advanced hashing algorithms like Argon2-to ensure data protection. These mechanisms align with recognized recommendations such as CNIL guidelines and the General Security Repository (RGS)."
   },
   {
     "category": "Access Authorization Management",
-    "question": "Have you defined a strong password policy? If so, describe it for users and administrators.",
+    "question": "Strong password policy? Describe for users and administrators.",
     "answer": "Yes. Our password policy mandates a minimum of 12 characters, using a mix of upper/lowercase letters, numbers, and special characters. Password reuse is strictly prohibited, and administrators face even stricter complexity rules to address elevated privilege risks."
   },
   {
@@ -77,17 +77,17 @@
   {
     "category": "Access Authorization Management",
     "question": "Are logs of successful and failed logins recorded?",
-    "answer": "Yes. All login attempts—successful or not—are recorded and fed into our SIEM platform, where real-time alerts and historical analysis help us quickly spot suspicious or anomalous activity."
+    "answer": "Yes. All login attempts-successful or not-are recorded and fed into our SIEM platform, where real-time alerts and historical analysis help us quickly spot suspicious or anomalous activity."
   },
   {
     "category": "Access Authorization Management",
-    "question": "Have you implemented means of detecting access compromise? If yes, please describe them.",
-    "answer": "Yes. We rely on an integrated intrusion detection and anomaly monitoring setup. Automated alerts are triggered if a user’s login behavior deviates from established norms, or if multiple failed attempts cross our pre-defined threshold."
+    "question": "Means of detecting access compromise? If yes, describe them.",
+    "answer": "Yes. We rely on an integrated intrusion detection and anomaly monitoring setup. Automated alerts are triggered if a user's login behavior deviates from established norms, or if multiple failed attempts cross our pre-defined threshold."
   },
   {
     "category": "Access Authorization Management",
-    "question": "Have you implemented Single Sign-On (SSO)? Are you compatible with protocols such as SAML or other protocols? If yes, which one?",
-    "answer": "Yes. We’ve rolled out SSO across major internal systems to simplify identity management and bolster security. We support standard protocols like SAML and OAuth2 to ensure compatibility and streamlined user experience."
+    "question": "Do you support SSO? Which protocols (SAML, OAuth2, etc.) are supported?",
+    "answer": "Yes. We've rolled out SSO across major internal systems to simplify identity management and bolster security. We support standard protocols like SAML and OAuth2 to ensure compatibility and streamlined user experience."
   },
   {
     "category": "Access Authorization Management",
@@ -106,8 +106,8 @@
   },
   {
     "category": "Monitoring and Traceability",
-    "question": "Has a centralized log management (infrastructure and application) been implemented?",
-    "answer": "Yes. We utilize a centralized log management framework—integrated with our SIEM solution—to collect, analyze, and store logs from both infrastructure and application layers."
+    "question": "Is centralized log management (infrastructure and application) in place?",
+    "answer": "Yes. We utilize a centralized log management framework-integrated with our SIEM solution-to collect, analyze, and store logs from both infrastructure and application layers."
   },
   {
     "category": "Monitoring and Traceability",
@@ -126,42 +126,42 @@
   },
   {
     "category": "Physical security",
-    "question": "Where are the data hosted? If you use a provider, please mention their name.",
+    "question": "Where is data hosted? If you use a provider, please mention their name.",
     "answer": "We primarily host data with Amazon Web Services (AWS), deploying in European regions for strong GDPR alignment, as well as in São Paulo for compliance with local regulations. We also use Cloudflare for content delivery and security, plus Google Workspace for collaboration and email solutions. Backups are encrypted and stored in AWS S3 in São Paulo, with versioning tags enabled."
   },
   {
     "category": "Physical security",
-    "question": "Do the locations where the data is hosted meet the requirements for physical security (physical access controls, anti-intrusion alarm systems, etc.)? Describe the mechanisms in place.",
-    "answer": "Yes. AWS data centers are equipped with robust physical safeguards, including perimeter fencing, CCTV surveillance, biometrics, and 24/7 on-site security. These measures comply with industry-recognized standards such as ISO 27001 and SOC 2. Similar controls are maintained at Cloudflare’s global edge locations and Google’s facilities, ensuring that only authorized personnel can access the infrastructure. Redundant power systems and sophisticated environmental controls further secure these sites against disruptions."
+    "question": "Do hosting locations meet physical security requirements? Describe.",
+    "answer": "Yes. AWS data centers are equipped with robust physical safeguards, including perimeter fencing, CCTV surveillance, biometrics, and 24/7 on-site security. These measures comply with industry-recognized standards such as ISO 27001 and SOC 2. Similar controls are maintained at Cloudflare's global edge locations and Google's facilities, ensuring that only authorized personnel can access the infrastructure. Redundant power systems and sophisticated environmental controls further secure these sites against disruptions."
   },
   {
     "category": "Physical security",
-    "question": "Are the power and telecommunications cables used to transport data or support",
+    "question": "Are power and telecom cables for data transport secured?",
     "answer": "Yes. AWS and other providers utilize secure, redundant cabling pathways and advanced cable-management solutions to protect power and telecom lines. Physical routing typically occurs through conduits or locked cable trays, reducing the risk of accidental damage or unauthorized tampering. These precautions align with internationally recognized best practices, helping guarantee uninterrupted service and data integrity."
   },
   {
     "category": "Security related to operations",
-    "question": "Do you have an up-to-date inventory of all components of the information system (eg CMDB)?",
+    "question": "Do you have an inventory of information system components (e.g. CMDB)?",
     "answer": "We maintain an updated asset inventory with the critical components of our information system. While we do not operate a traditional CMDB in a highly formalized sense, we do track key hardware, software, and network elements through a centralized register. This ensures we have clear visibility into our environment without introducing unnecessary administrative overhead."
   },
   {
     "category": "Security related to operations",
-    "question": "Do you have a change management process in place for the entire information system to ensure the security of technical and application updates?",
+    "question": "Do you have a change management process for security of technical updates?",
     "answer": "Yes. We follow a lean change management workflow that mandates testing, peer review, and sign-off before deployment. Our approach focuses on prioritizing updates based on potential impact and risk, thus preventing disruptions while ensuring core security requirements are met."
   },
   {
     "category": "Security related to operations",
-    "question": "Have you implemented an automatic session locking procedure on workstations?",
+    "question": "Do you have automatic session locking on workstations?",
     "answer": "Yes. On all company-managed workstations, including macOS devices, we enforce an automatic screen lock after a short period of inactivity, requiring re-authentication. This measure mitigates the risk of unauthorized access when a device is momentarily left unattended."
   },
   {
     "category": "Security related to operations",
-    "question": "Do you use regularly updated antivirus or EDR (Endpoint Detection & Response) to secure workstations?",
+    "question": "Do you use updated antivirus or EDR to secure workstations?",
     "answer": "We rely on a combination of native macOS security features and lightweight EDR solutions to monitor and mitigate threats. These solutions are updated automatically and provide real-time threat detection without substantially impacting performance."
   },
   {
     "category": "Security related to operations",
-    "question": "Have you installed a \"firewall\" on workstations? If yes, has this firewall been configured to log blocked flows and identify application configuration errors or intrusion attempts?",
+    "question": "Is workstation firewall configured to log blocked flows and intrusions?",
     "answer": "Yes. We leverage the built-in macOS firewall on workstations, supplemented by customized rules. Key firewall events are logged centrally, helping us quickly diagnose misconfigurations and detect intrusion attempts. We balance this with user experience needs to ensure day-to-day operations remain efficient."
   },
   {
@@ -176,53 +176,53 @@
   },
   {
     "category": "Security related to operations",
-    "question": "Are appropriate technical vulnerability detection tools in place? If yes, are these tools updated daily?",
+    "question": "Are vulnerability detection tools in place and updated daily?",
     "answer": "Yes. We subscribe to a third-party vulnerability scanning service that runs regular checks against our codebases and infrastructure. These scanning engines are updated daily to keep pace with newly disclosed threats."
   },
   {
     "category": "Security related to operations",
-    "question": "Are security updates and patches installed within a defined time frame in the update policy?",
+    "question": "Are security patches installed within a defined time frame?",
     "answer": "Yes. Our update policy calls for critical security patches to be installed as soon as feasible (usually within days), while routine patches follow an established rollout schedule. This risk-based approach ensures rapid action on serious vulnerabilities without compromising stability."
   },
   {
     "category": "Security related to operations",
-    "question": " Do you perform periodic scans (at least monthly) to search for vulnerabilities?",
-    "answer": "Yes. Our vulnerability scanning occurs at least monthly—and more frequently for mission-critical systems or in response to emergent threats. High-severity findings trigger immediate remediation steps and potentially additional scans to confirm resolution."
+    "question": "Do you perform periodic scans (at least monthly) for vulnerabilities?",
+    "answer": "Yes. Our vulnerability scanning occurs at least monthly-and more frequently for mission-critical systems or in response to emergent threats. High-severity findings trigger immediate remediation steps and potentially additional scans to confirm resolution."
   },
   {
     "category": "Security of communications",
-    "question": "Have you segmented the services visible from the Internet from the rest of the information system?",
-    "answer": "We primarily use cloud services (AWS, Google Workspace, Cloudflare). Internet-facing services are hosted and managed within dedicated cloud environments, effectively isolating them from sensitive components. Although we don’t rely on traditional on-premises segmentation, our cloud architecture ensures external services and critical systems remain logically segregated."
+    "question": "Are Internet-facing services segmented from the rest of the system?",
+    "answer": "We primarily use cloud services (AWS, Google Workspace, Cloudflare). Internet-facing services are hosted and managed within dedicated cloud environments, effectively isolating them from sensitive components. Although we don't rely on traditional on-premises segmentation, our cloud architecture ensures external services and critical systems remain logically segregated."
   },
   {
     "category": "Security of communications",
-    "question": "Have you implemented network segmentation (separating storage, processing, and external interfaces) for each machine in the network from the design of the network architecture? If so, is this segmentation based on risks?",
-    "answer": "As a modern software house, we leverage cloud-based segmentation rather than traditional on-site network segmentation. Our architecture is oriented around virtual private clouds (VPCs) and containerized workloads, helping isolate key services based on risk profiles. While our MacBooks aren’t physically segmented on an internal network, each device uses secure endpoint configurations to minimize exposure."
+    "question": "Is network segmentation risk-based and in place?",
+    "answer": "As a modern software house, we leverage cloud-based segmentation rather than traditional on-site network segmentation. Our architecture is oriented around virtual private clouds (VPCs) and containerized workloads, helping isolate key services based on risk profiles. While our MacBooks aren't physically segmented on an internal network, each device uses secure endpoint configurations to minimize exposure."
   },
   {
     "category": "Security of communications",
     "question": "Do you use encrypted protocols for all internal and external traffic?",
-    "answer": "Yes. All communication traverses encrypted protocols—most commonly HTTPS/TLS—both internally (within cloud environments) and externally (user-facing). We also enforce secure channels for file transfers and dev tooling to maintain confidentiality and integrity."
+    "answer": "Yes. All communication traverses encrypted protocols-most commonly HTTPS/TLS-both internally (within cloud environments) and externally (user-facing). We also enforce secure channels for file transfers and dev tooling to maintain confidentiality and integrity."
   },
   {
     "category": "Security of communications",
-    "question": "Have you implemented a secure gateway to access the Internet? Does this gateway include at least a firewall as close as possible to the Internet access and a proxy server incorporating various security mechanisms?",
-    "answer": "We rely on AWS, Cloudflare, and Google’s built-in security controls rather than a traditional on-premises internet gateway. Firewall rules are enforced at the cloud edge, complemented by application-layer protections (e.g., Cloudflare WAF). We don’t operate a standalone proxy server on-prem; instead, our cloud services provide layered security and filtering."
+    "question": "Secure Internet gateway with firewall and proxy security?",
+    "answer": "We rely on AWS, Cloudflare, and Google's built-in security controls rather than a traditional on-premises internet gateway. Firewall rules are enforced at the cloud edge, complemented by application-layer protections (e.g., Cloudflare WAF). We don't operate a standalone proxy server on-prem; instead, our cloud services provide layered security and filtering."
   },
   {
     "category": "Security of communications",
     "question": "Is a regular review of filtering rules performed? If so, how frequently?",
-    "answer": "Yes. We review our security group and firewall configurations quarterly—or sooner if new features or client demands necessitate changes. This ensures our filtering rules remain aligned with best practices and evolving threat landscapes."
+    "answer": "Yes. We review our security group and firewall configurations quarterly-or sooner if new features or client demands necessitate changes. This ensures our filtering rules remain aligned with best practices and evolving threat landscapes."
   },
   {
     "category": "Security of communications",
-    "question": "Do you have an antivirus analysis system upstream of user mailboxes to prevent the reception of infected files?",
+    "question": "Is antivirus scanning applied upstream of user mailboxes?",
     "answer": "Yes. Google Workspace automatically scans incoming emails for malware and viruses. Our endpoint monitoring solutions also detect suspicious attachments, providing a multi-layered safeguard against infected files."
   },
   {
     "category": "Security of communications",
-    "question": "Have you implemented an anti-spam service for emails exchanged over the Internet?",
-    "answer": "Yes. We rely on Google Workspace’s built-in spam filtering, which employs advanced algorithms to block phishing and spam emails at scale. This proven solution reduces the risk of malicious content reaching our users."
+    "question": "Do you have an anti-spam service for email?",
+    "answer": "Yes. We rely on Google Workspace's built-in spam filtering, which employs advanced algorithms to block phishing and spam emails at scale. This proven solution reduces the risk of malicious content reaching our users."
   },
   {
     "category": "Security of communications",
@@ -231,13 +231,13 @@
   },
   {
     "category": "Security of communications",
-    "question": "Have you secured remote access of mobile computing devices using VPN and multi-factor authentication?",
+    "question": "Is remote access secured with VPN and MFA?",
     "answer": "We use VPN access only when required by specific clients or high-security environments, always coupled with multi-factor authentication. Given our predominantly cloud-based setup, most standard remote work scenarios are secured via MFA and encrypted connections without needing a dedicated VPN tunnel."
   },
   {
     "category": "Incident Management",
     "question": "Have you defined a security incident management procedure?",
-    "answer": "Yes. We maintain documented procedures for identifying, reporting, and resolving security incidents. These processes are tailored to each client’s requirements, ensuring we can rapidly contain threats, analyze root causes, and restore operations without excessive downtime."
+    "answer": "Yes. We maintain documented procedures for identifying, reporting, and resolving security incidents. These processes are tailored to each client's requirements, ensuring we can rapidly contain threats, analyze root causes, and restore operations without excessive downtime."
   },
   {
     "category": "Incident Management",
@@ -246,33 +246,33 @@
   },
   {
     "category": "Incident Management",
-    "question": "Have you implemented secure solutions for protecting passwords stored on systems?",
-    "answer": "Yes. We use encrypted password storage solutions—leveraging modern hashing algorithms (e.g., Argon2)—and enforce multifactor authentication to prevent unauthorized access. Password vaults and role-based access controls help protect credentials for both internal and client-facing systems."
+    "question": "Do you protect stored passwords with secure solutions?",
+    "answer": "Yes. We use encrypted password storage solutions-leveraging modern hashing algorithms (e.g., Argon2)-and enforce multifactor authentication to prevent unauthorized access. Password vaults and role-based access controls help protect credentials for both internal and client-facing systems."
   },
   {
     "category": "Incident Management",
-    "question": "Has a cyber crisis management plan been developed and kept up to date? If so, is it tested annually?",
-    "answer": "We haven’t formalized a standalone cyber crisis plan, given our reliance on cloud services from AWS, Google, and Cloudflare, which offer robust, built-in resiliency. However, we do maintain a flexible, project-specific escalation framework and conduct periodic tabletop exercises when clients require higher levels of preparedness. We adjust and improve these procedures as technology and threats evolve."
+    "question": "Is a cyber crisis plan in place and tested annually?",
+    "answer": "We haven't formalized a standalone cyber crisis plan, given our reliance on cloud services from AWS, Google, and Cloudflare, which offer robust, built-in resiliency. However, we do maintain a flexible, project-specific escalation framework and conduct periodic tabletop exercises when clients require higher levels of preparedness. We adjust and improve these procedures as technology and threats evolve."
   },
   {
     "category": "Incident Management",
     "question": "Do you have a CERT (Computer Emergency Response Team)?",
-    "answer": "Not in a generic, permanent capacity. For high-security projects, we either partner with a specialized CERT provider or assemble a dedicated incident response team. This approach lets us adapt resources to each client’s unique risk profile rather than maintaining an in-house CERT around the clock."
+    "answer": "Not in a generic, permanent capacity. For high-security projects, we either partner with a specialized CERT provider or assemble a dedicated incident response team. This approach lets us adapt resources to each client's unique risk profile rather than maintaining an in-house CERT around the clock."
   },
   {
     "category": "Subcontracting Security",
-    "question": "Do the contracts with your subcontractors contain a specific security clause?",
+    "question": "Do subcontractor contracts contain a specific security clause?",
     "answer": "Yes. Our subcontractor agreements explicitly incorporate robust security clauses, including NDAs, clear SLAs, and objective performance criteria. Additionally, we define the jurisdiction for resolving any disputes, ensuring all parties are legally bound to uphold confidentiality and data protection standards."
   },
   {
     "category": "Subcontracting Security",
     "question": "Is the effective application of security principles regularly verified?",
-    "answer": "Yes. We perform periodic reviews and conduct reference checks before approving new subcontractors. For existing partners, we monitor compliance through set KPIs, occasional audits, and ongoing communication to verify they maintain the same level of security vigilance we demand internally. This long-standing practice helps us minimize risk and safeguard both our clients’ data and our operational integrity."
+    "answer": "Yes. We perform periodic reviews and conduct reference checks before approving new subcontractors. For existing partners, we monitor compliance through set KPIs, occasional audits, and ongoing communication to verify they maintain the same level of security vigilance we demand internally. This long-standing practice helps us minimize risk and safeguard both our clients' data and our operational integrity."
   },
   {
     "category": "Project Information Systems",
-    "question": " Are the risks associated with each project evaluated and appreciated according to pre-defined criteria for assessing the impact on the security of information systems?",
-    "answer": "Yes. We adhere to a structured risk assessment protocol for every new project phase, aligning with pre-defined security and compliance criteria. This process is often done in collaboration with the client’s technology department, ensuring a shared perspective on potential threats and the impact on critical systems."
+    "question": "Are project risks evaluated against pre-defined security impact criteria?",
+    "answer": "Yes. We adhere to a structured risk assessment protocol for every new project phase, aligning with pre-defined security and compliance criteria. This process is often done in collaboration with the client's technology department, ensuring a shared perspective on potential threats and the impact on critical systems."
   },
   {
     "category": "Project Information Systems",
@@ -281,12 +281,12 @@
   },
   {
     "category": "Project Information Systems",
-    "question": " Are system development and integration tasks carried out in a secure development environment?",
-    "answer": "Yes. We leverage GitHub’s Enterprise plans and other controlled repositories to ensure code integrity and confidentiality. Our environment includes automated vulnerability scanning, code quality checks (including AI-driven reviews), and strict access controls. We frequently coordinate these measures with our clients to align with their security expectations."
+    "question": "Are development tasks done in a secure environment?",
+    "answer": "Yes. We leverage GitHub's Enterprise plans and other controlled repositories to ensure code integrity and confidentiality. Our environment includes automated vulnerability scanning, code quality checks (including AI-driven reviews), and strict access controls. We frequently coordinate these measures with our clients to align with their security expectations."
   },
   {
     "category": "Project Information Systems",
-    "question": " Do you verify the level of security before delivery (code audit, penetration testing, or …)?",
+    "question": "Do you verify security before delivery (code audit, pentest, etc.)?",
     "answer": "Absolutely. Before rolling out updates or final deliverables, we perform thorough code audits and penetration tests (often through partners like Artillery or Bureau Veritas). Our AI-based security scanners also validate code quality and pinpoint vulnerabilities. This multi-layered validation strategy helps us deliver secure, reliable solutions that reflect the extensive industry experience of our executive leadership."
   },
   {
@@ -312,7 +312,7 @@
   {
     "category": "Backups Management",
     "question": " Is the recovery process tested regularly? If so, how often?",
-    "answer": "Yes. We perform recovery drills and spot checks on a quarterly basis—or more frequently for mission-critical environments. These rehearsals verify that we can restore data swiftly and accurately when needed."
+    "answer": "Yes. We perform recovery drills and spot checks on a quarterly basis-or more frequently for mission-critical environments. These rehearsals verify that we can restore data swiftly and accurately when needed."
   },
   {
     "category": "Backups Management",
@@ -322,22 +322,22 @@
   {
     "category": "Backups Management",
     "question": " Do you have an offline or immutable backup copy?",
-    "answer": "We don’t maintain purely offline backups. However, we do utilize immutable backups in AWS S3 via WORM, preventing file alterations once written. This approach delivers strong protection against ransomware and other threats—without the additional overhead of fully offline storage."
+    "answer": "We don't maintain purely offline backups. However, we do utilize immutable backups in AWS S3 via WORM, preventing file alterations once written. This approach delivers strong protection against ransomware and other threats-without the additional overhead of fully offline storage."
   },
   {
     "category": "Business Continuity",
-    "question": " Have you implemented a business continuity and disaster recovery plan? If so, is it tested annually? Is it subject to continuous improvement? Does this PRA cover cyber scenarios?",
-    "answer": "We maintain a streamlined approach to business continuity and disaster recovery, leveraging our robust cloud services (AWS, Google Workspace, Cloudflare). While we don’t have a fully formalized plan covering every possible scenario, we do have key response protocols for critical disruptions—particularly cyber incidents—that we refine as we grow. We test essential recovery procedures at least once a year, incorporating lessons learned into a continuous improvement process."
+    "question": "Is a business continuity and DR plan tested annually and covering cyber?",
+    "answer": "We maintain a streamlined approach to business continuity and disaster recovery, leveraging our robust cloud services (AWS, Google Workspace, Cloudflare). While we don't have a fully formalized plan covering every possible scenario, we do have key response protocols for critical disruptions-particularly cyber incidents-that we refine as we grow. We test essential recovery procedures at least once a year, incorporating lessons learned into a continuous improvement process."
   },
   {
     "category": "Business Continuity",
-    "question": " Describe the organization’s Disaster Recovery Plan and Business Continuity Plan process",
+    "question": "Describe your Disaster Recovery and Business Continuity Plan process",
     "answer": "Our plan focuses on rapid resource failover to geographically distributed cloud environments, data backups, and designated escalation paths for leadership. We use automated failover mechanisms within AWS and maintain close partnerships with our providers. In parallel, our corporate agreements (social contract in the Brazilian legal framework) outline the roles and responsibilities of each partner or director in crisis situations. Although not exhaustive, this framework ensures we can resume critical operations and coordinate stakeholder communication swiftly."
   },
   {
     "category": "Business Continuity",
-    "question": " Has the entity defined and implemented Maximum Allowable Downtime (MAD) and Maximum Allowable Data Loss (MADL) to ensure service continuity and data integrity?",
-    "answer": "Yes, informally. We monitor recovery time objectives (RTO) and recovery point objectives (RPO) tailored to each client contract. While we haven’t formalized hard limits under “MAD” or “MADL” nomenclature, we do establish clear time and data thresholds during project onboarding, ensuring both continuity and integrity align with client expectations and our own operational resilience goals."
+    "question": "Are MAD and MADL defined for service continuity and data integrity?",
+    "answer": "Yes, informally. We monitor recovery time objectives (RTO) and recovery point objectives (RPO) tailored to each client contract. While we haven't formalized hard limits under \"MAD\" or \"MADL\" nomenclature, we do establish clear time and data thresholds during project onboarding, ensuring both continuity and integrity align with client expectations and our own operational resilience goals."
   },
   {
     "category": "Data Security",
@@ -351,53 +351,53 @@
   },
   {
     "category": "Data Security",
-    "question": " Do you have information leak detection or prevention (DLP) devices in place?",
-    "answer": "We rely on AWS-native services, Google Workspace protections, and Cloudflare filtering to detect and mitigate potential data exfiltration. While we haven’t deployed a classic DLP appliance, we do configure data exposure alerts and track anomalies through our SIEM to spot any suspicious data transfers."
+    "question": "Do you have DLP (leak detection/prevention) in place?",
+    "answer": "We rely on AWS-native services, Google Workspace protections, and Cloudflare filtering to detect and mitigate potential data exfiltration. While we haven't deployed a classic DLP appliance, we do configure data exposure alerts and track anomalies through our SIEM to spot any suspicious data transfers."
   },
   {
     "category": "Data Security",
     "question": " Do you anonymize non-production data?",
-    "answer": "Yes. For test or development environments, sensitive identifiers are replaced with synthetic or masked values. This approach ensures we don’t inadvertently expose personal or confidential information during development cycles."
+    "answer": "Yes. For test or development environments, sensitive identifiers are replaced with synthetic or masked values. This approach ensures we don't inadvertently expose personal or confidential information during development cycles."
   },
   {
     "category": "Data Security",
-    "question": " How do you ensure reversibility, including data restoration in an intelligible format for your subcontractors and clients?",
+    "question": "How do you ensure reversibility and data restoration for clients?",
     "answer": "We routinely back up data in standardized, well-documented formats (e.g., SQL dumps, CSV exports). Upon contract completion or project handover, we provide clients or subcontractors with data extracts in a format they can readily parse and import into their systems. Our AWS-based backup approach also simplifies partial or full restorations."
   },
   {
     "category": "Data Security",
     "question": " Do you encrypt databases? If so, which data is encrypted?",
-    "answer": "Yes. Our AWS RDS instances are encrypted at rest by default (AES-256), covering the entire database, including backups. Additionally, we enforce TLS for in-transit data, ensuring that all data—both at rest and in motion—is safeguarded."
+    "answer": "Yes. Our AWS RDS instances are encrypted at rest by default (AES-256), covering the entire database, including backups. Additionally, we enforce TLS for in-transit data, ensuring that all data-both at rest and in motion-is safeguarded."
   },
   {
     "category": "Data Security",
     "question": " Are data only accessed in EU?",
-    "answer": "Not exclusively. We host and access data based on each project’s geographical and compliance requirements. Many of our European clients leverage EU-based AWS regions, while clients in LATAM or North America may require data residence in their regions. Regardless of location, we apply consistent security measures aligned with GDPR and other relevant regulations."
+    "answer": "Not exclusively. We host and access data based on each project's geographical and compliance requirements. Many of our European clients leverage EU-based AWS regions, while clients in LATAM or North America may require data residence in their regions. Regardless of location, we apply consistent security measures aligned with GDPR and other relevant regulations."
   },
   {
     "category": "Compliance",
     "question": " Are you compliant with the requirements of the European NIS2 directive?",
-    "answer": "We are not formally subject to NIS2 at this stage, primarily due to our Brazilian incorporation and scope. However, we stay informed about emerging EU regulations—NIS2 included—and periodically evaluate whether any of our services, clients, or growth paths will necessitate formal alignment. Our intent is to adopt relevant provisions as our European engagements expand."
+    "answer": "We are not formally subject to NIS2 at this stage, primarily due to our Brazilian incorporation and scope. However, we stay informed about emerging EU regulations-NIS2 included-and periodically evaluate whether any of our services, clients, or growth paths will necessitate formal alignment. Our intent is to adopt relevant provisions as our European engagements expand."
   },
   {
     "category": "Compliance",
-    "question": " Describe how do you manage personal data and compliance with privacy related laws or regulation (Europe):",
+    "question": "Describe personal data management and privacy compliance (Europe):",
     "answer": "We adhere to GDPR-aligned practices for any project involving EU residents. This includes obtaining proper consent (where applicable), maintaining clear data processing records, and ensuring secure data handling through encryption and strict access controls. We also incorporate standard contractual clauses (SCCs) for international data transfers, and rely on reputable cloud providers with robust data protection measures."
   },
   {
     "category": "Compliance",
     "question": " Describe your ISMS review and audit process:",
-    "answer": "Our Information Security Management System (ISMS) is reviewed on an as-needed basis, particularly when onboarding new clients or launching mission-critical projects. While we haven’t formalized a recurring external audit cycle, we do perform risk-based internal checks and partner with third-party security assessors on select engagements. Findings drive targeted improvements across our policies and technical controls."
+    "answer": "Our Information Security Management System (ISMS) is reviewed on an as-needed basis, particularly when onboarding new clients or launching mission-critical projects. While we haven't formalized a recurring external audit cycle, we do perform risk-based internal checks and partner with third-party security assessors on select engagements. Findings drive targeted improvements across our policies and technical controls."
   },
   {
     "category": "Compliance",
-    "question": " How does the organization ensure GDPR compliance, including managing personal data, granting customer access to their data, and protecting user anonymity through anonymization measures?",
-    "answer": "• Data Management: We store personal data in encrypted AWS databases, separating production from test environments to avoid unnecessary exposure.\n• Data Subject Rights: If a data subject requests access, correction, or deletion of their personal data, we follow documented procedures to verify identity and respond promptly within GDPR’s stipulated timeframes.\n• Anonymization: For analytics and testing, we apply data masking or tokenization, eliminating direct identifiers to protect user anonymity.\n• Ongoing Training & Oversight: We conduct ad hoc GDPR training and maintain up-to-date records of processing activities, ensuring our team understands privacy obligations."
+    "question": "How does the organization ensure GDPR compliance?",
+    "answer": "• Data Management: We store personal data in encrypted AWS databases, separating production from test environments to avoid unnecessary exposure.\n• Data Subject Rights: If a data subject requests access, correction, or deletion of their personal data, we follow documented procedures to verify identity and respond promptly within GDPR's stipulated timeframes.\n• Anonymization: For analytics and testing, we apply data masking or tokenization, eliminating direct identifiers to protect user anonymity.\n• Ongoing Training & Oversight: We conduct ad hoc GDPR training and maintain up-to-date records of processing activities, ensuring our team understands privacy obligations."
   },
   {
     "category": "Compliance",
     "question": " Describe how reversibility is addressed (end of contract):",
-    "answer": "Upon contract termination, we provide clients (or authorized subcontractors) with a clear path to export their data in a standard, intelligible format (e.g., SQL dump or CSV export). After a defined transition window, we securely delete residual copies—following strict data sanitization methods—unless retention is required by law or separate contractual obligations."
+    "answer": "Upon contract termination, we provide clients (or authorized subcontractors) with a clear path to export their data in a standard, intelligible format (e.g., SQL dump or CSV export). After a defined transition window, we securely delete residual copies-following strict data sanitization methods-unless retention is required by law or separate contractual obligations."
   },
   {
     "category": "Compliance",
@@ -417,12 +417,12 @@
   {
     "category": "Hosting",
     "question": " Do you have DRP? If yes describe it:",
-    "answer": "Yes. We leverage AWS’s multi-region redundancy and automated snapshot capabilities as the backbone of our Disaster Recovery Plan (DRP). We regularly back up data in S3 (with versioning and WORM policies) and can rapidly spin up infrastructure in alternative regions if a primary region becomes unavailable. We test key restoration procedures periodically, validating our ability to recover critical workloads."
+    "answer": "Yes. We leverage AWS's multi-region redundancy and automated snapshot capabilities as the backbone of our Disaster Recovery Plan (DRP). We regularly back up data in S3 (with versioning and WORM policies) and can rapidly spin up infrastructure in alternative regions if a primary region becomes unavailable. We test key restoration procedures periodically, validating our ability to recover critical workloads."
   },
   {
     "category": "Hosting",
     "question": " SLA and kind of contract between hoster and publisher:",
-    "answer": "We operate under AWS’s standard enterprise-level SLA, which covers uptime, response times, and service credits in the event of outages. Additionally, we negotiate specific SLAs with our clients that may incorporate or extend the baseline AWS terms, ensuring alignment with project requirements and risk appetites."
+    "answer": "We operate under AWS's standard enterprise-level SLA, which covers uptime, response times, and service credits in the event of outages. Additionally, we negotiate specific SLAs with our clients that may incorporate or extend the baseline AWS terms, ensuring alignment with project requirements and risk appetites."
   },
   {
     "category": "Hosting",
@@ -462,31 +462,31 @@
   {
     "category": "Services and layers",
     "question": " What technology is used to separate data between different clients?",
-    "answer": "We typically employ either separate database schemas or a multi-tenant architecture with row-level security depending on the project scope and client requirements. Each tenant’s data is logically isolated, ensuring no cross-tenant exposure. Additional encryption and role-based access controls reinforce tenant-specific security boundaries."
+    "answer": "We typically employ either separate database schemas or a multi-tenant architecture with row-level security depending on the project scope and client requirements. Each tenant's data is logically isolated, ensuring no cross-tenant exposure. Additional encryption and role-based access controls reinforce tenant-specific security boundaries."
   },
   {
     "category": "Services and layers",
-    "question": " Describe interactions the software can have with other products, like cloud services:",
+    "question": "Describe software interactions with other products (e.g. cloud services):",
     "answer": "Our applications integrate seamlessly with a range of third-party and cloud-based services, such as:\n• Identity & Access Management: AWS Cognito, Auth0, or custom OAuth2 providers\n• Payment Gateways: Stripe, PayPal, or local banking APIs\n• Messaging and Notifications: AWS SNS, Twilio, SendGrid, or Slack Webhooks\n• Analytics: Google Analytics, AWS QuickSight, or third-party BI tools\n• Storage & File Sharing: Secure S3 buckets, Cloudflare R2, or Google Cloud Storage\nThis modular approach ensures scalability and flexibility in adapting to the unique needs of each client engagement."
   },
   {
     "category": "Hypervisor & OS",
     "question": " List hypervisor and OS used with name, version:",
-    "answer": "• Client Workstations: Apple macOS (various versions, typically the latest stable release)\n• Server Environments: Linux-based instances in AWS (primarily Amazon Linux 2 and Ubuntu LTS). We do not use Windows Server.\n• Hypervisor Layer: We rely on AWS virtualization (Xen or Nitro, depending on instance type) rather than managing our own hypervisor infrastructure. This ensures we’re always on a modern, well-maintained virtualization platform without the overhead of on-prem hypervisor management."
+    "answer": "• Client Workstations: Apple macOS (various versions, typically the latest stable release)\n• Server Environments: Linux-based instances in AWS (primarily Amazon Linux 2 and Ubuntu LTS). We do not use Windows Server.\n• Hypervisor Layer: We rely on AWS virtualization (Xen or Nitro, depending on instance type) rather than managing our own hypervisor infrastructure. This ensures we're always on a modern, well-maintained virtualization platform without the overhead of on-prem hypervisor management."
   },
   {
     "category": "Authentication",
     "question": " List kind of authentication used by the application:",
-    "answer": "We primarily implement OAuth2/OpenID Connect for user authentication, often integrating with our clients’ corporate identity providers (such as Microsoft Azure AD). Depending on project requirements, we also support custom username/password setups with role-based access controls."
+    "answer": "We primarily implement OAuth2/OpenID Connect for user authentication, often integrating with our clients' corporate identity providers (such as Microsoft Azure AD). Depending on project requirements, we also support custom username/password setups with role-based access controls."
   },
   {
     "category": "Authentication",
     "question": " Can we use SSO with SAML2 integration?",
-    "answer": "Yes. We support Single Sign-On using SAML 2.0, OAuth2, or OpenID Connect. For instance, in the Timac Agro solution, we’ve integrated directly with Microsoft’s identity platform to streamline corporate logins."
+    "answer": "Yes. We support Single Sign-On using SAML 2.0, OAuth2, or OpenID Connect. For instance, in the Timac Agro solution, we've integrated directly with Microsoft's identity platform to streamline corporate logins."
   },
   {
     "category": "Authentication",
-    "question": " Is multi-factor authentication (MFA) implemented and required to access the application?",
-    "answer": "We strongly recommend and typically implement MFA for all administrative roles. Whether MFA is mandatory for end-users depends on the project’s security policy. Options range from SMS-based codes and TOTP apps to hardware tokens, depending on each client’s compliance standards and user experience goals."
+    "question": "Is MFA required to access the application?",
+    "answer": "We strongly recommend and typically implement MFA for all administrative roles. Whether MFA is mandatory for end-users depends on the project's security policy. Options range from SMS-based codes and TOTP apps to hardware tokens, depending on each client's compliance standards and user experience goals."
   }
 ]
