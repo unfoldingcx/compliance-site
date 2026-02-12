@@ -1,11 +1,11 @@
-import { motion } from 'framer-motion';
-import { Shield, CheckCircle } from 'lucide-react';
-import { useBranding } from '@/hooks/useBranding';
+import { motion } from "framer-motion";
+import { Shield } from "lucide-react";
+import { useBranding } from "@/hooks/useBranding";
 
 export function LoadingScreen() {
   const { branding } = useBranding();
-  const themeColor = branding?.themeColor || '#3B82F6';
-  
+  const themeColor = branding?.themeColor || "#3B82F6";
+
   return (
     <motion.div
       initial={{ opacity: 1 }}
@@ -21,13 +21,13 @@ export function LoadingScreen() {
           className="relative"
         >
           <motion.div
-            animate={{ 
+            animate={{
               rotate: 360,
-              transition: { 
-                duration: 2, 
-                ease: "linear", 
-                repeat: Infinity 
-              }
+              transition: {
+                duration: 2,
+                ease: "linear",
+                repeat: Infinity,
+              },
             }}
             className="w-16 h-16 rounded-full border-t-2 border-b-2"
             style={{ borderColor: themeColor }}
@@ -42,16 +42,14 @@ export function LoadingScreen() {
             </motion.div>
           </div>
         </motion.div>
-        
+
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.3, duration: 0.5 }}
           className="text-center space-y-2"
         >
-          <h2 className="text-xl font-semibold">
-            Loading Compliance Center
-          </h2>
+          <h2 className="text-xl font-semibold">Loading Compliance Center</h2>
           <p className="text-sm text-muted-foreground">
             Preparing policies and guidelines...
           </p>

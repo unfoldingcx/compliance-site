@@ -1,12 +1,5 @@
-import { useQuery } from '@tanstack/react-query';
 import { ComplianceItem, LanguageCode, useComplianceStore } from '@/store/complianceStore';
 import { useEffect, useState } from 'react';
-
-interface ComplianceData {
-  complianceItems: {
-    [key in LanguageCode]: ComplianceItem[];
-  };
-}
 
 async function fetchComplianceData(lang: LanguageCode): Promise<ComplianceItem[]> {
   const response = await fetch(`/translations/${lang}.json`);
