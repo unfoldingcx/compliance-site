@@ -381,7 +381,7 @@
   },
   {
     "category": "Compliance",
-    "question": "Décrivez gestion des données personnelles et conformité (Europe) :",
+    "question": "Décrivez la gestion des données personnelles et conformité (Europe) :",
     "answer": "Nous suivons des pratiques conformes au GDPR pour tous les projets impliquant des résidents européens, notamment en obtenant les consentements nécessaires, en tenant des registres précis et en assurant un traitement sécurisé des données via chiffrement et contrôles d'accès. Nous utilisons également des clauses contractuelles types pour les transferts internationaux et faisons appel à des fournisseurs de confiance en matière de protection des données."
   },
   {
