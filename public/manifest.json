@@ -1,0 +1,16 @@
+{
+  "name": "Compliance Center",
+  "short_name": "Compliance",
+  "description": "Compliance Center for company policies and guidelines",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3B82F6",
+  "icons": [
+    {
+      "src": "/branding/default/favicon/favicon.ico",
+      "sizes": "48x48",
+      "type": "image/x-icon"
+    }
+  ]
+}

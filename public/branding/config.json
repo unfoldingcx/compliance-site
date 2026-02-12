@@ -1,0 +1,25 @@
+{
+  "domains": {
+    "compliance.unfolding.cx": {
+      "companyName": "UNFOLDING CX",
+      "shortName": "UNFOLDING CX",
+      "title": "Central de Compliance",
+      "themeColor": "#BBA268",
+      "description": "Central de Compliance da UNFOLDING CX - Políticas e diretrizes de conformidade."
+    },
+    "compliance.unfolding.com.br": {
+      "companyName": "UNFOLDING CX",
+      "shortName": "UNFOLDING CX",
+      "title": "Central de Compliance",
+      "themeColor": "#BBA268",
+      "description": "Central de Compliance da UNFOLDING CX - Políticas e diretrizes de conformidade."
+    }
+  },
+  "default": {
+    "companyName": "OUR COMPANY",
+    "shortName": "OUR COMPANY",
+    "title": "Central de Compliance",
+    "themeColor": "#BBA268",
+    "description": "Central de Compliance - Políticas e diretrizes de conformidade."
+  }
+}

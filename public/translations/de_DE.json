@@ -1,0 +1,492 @@
+[
+  {
+    "category": "General y PSSI",
+    "question": "¿Dispone de una política de seguridad (PSSI) para gestionar su sistema de información? En caso afirmativo, ¿está validada y respaldada por la dirección ejecutiva y se basa en las necesidades de los interesados y en los estándares 27001/27002?",
+    "answer": "Absolutamente. Mantenemos una Política de Seguridad de la Información (PSSI) robusta, validada formalmente y promovida por nuestro liderazgo ejecutivo. Está plenamente alineada con los requerimientos de los stakeholders y calibrada según las normas ISO 27001/27002. No se trata de meras formalidades: la alta dirección respalda y aplica esta política de forma contundente para garantizar el máximo cumplimiento en seguridad."
+  },
+  {
+    "category": "General y PSSI",
+    "question": "¿Se mapean y revisan regularmente los riesgos de seguridad informática? En caso afirmativo, ¿con qué frecuencia?",
+    "answer": "Sí, se mapean y reevaluan a través de un proceso formal. Realizamos evaluaciones integrales al menos trimestralmente, con monitoreo continuo entre ciclos. Dado que nuestra plantilla utiliza mayoritariamente MacBooks, reconocidos por su robusta arquitectura de seguridad, estas revisiones permiten identificar y mitigar rápidamente cualquier amenaza emergente. Este enfoque proactivo está incorporado en nuestro marco de gestión de riesgos, proporcionando visibilidad clara a la alta dirección."
+  },
+  {
+    "category": "General y PSSI",
+    "question": "¿Evalúa regularmente el rendimiento de la seguridad de la información y la efectividad del sistema de gestión de seguridad?",
+    "answer": "Aunque no contamos con un proceso estructurado y programado de forma rígida, realizamos evaluaciones ad hoc y análisis basados en riesgos siempre que se producen cambios críticos o surgen nuevas amenazas. Este método flexible, en línea con nuestro modelo ágil, nos permite reaccionar de inmediato ante posibles brechas de seguridad. Estamos estudiando formalizar este proceso para cumplir con las expectativas de compliance y las demandas de los stakeholders."
+  },
+  {
+    "category": "General y PSSI",
+    "question": "¿Se evalúa regularmente el nivel de seguridad mediante pruebas de intrusión y escaneos de vulnerabilidades? ¿Se corrigen las vulnerabilidades detectadas en menos de 1 año?",
+    "answer": "Sí, realizamos pruebas de intrusión y escaneos de vulnerabilidades de forma regular, aprovechando alianzas estratégicas con líderes del sector, como Netcraft, Artillery IO y Cloudflare Security Insights. Nuestro historial con clientes de alto perfil, como Netflix y Cartier, subraya nuestro compromiso con la remediación rápida: generalmente, las vulnerabilidades se corrigen en cuestión de semanas o días, según su criticidad. Este enfoque proactivo fortalece nuestro estándar de seguridad y la confianza de los stakeholders."
+  },
+  {
+    "category": "General y PSSI",
+    "question": "¿Realiza auditorías internas y controles regulares para verificar el cumplimiento de los requisitos de seguridad según la PSSI?",
+    "answer": "Actualmente no implementamos auditorías internas formales y recurrentes basadas en la PSSI, pero efectuamos evaluaciones puntuales y controles reforzados cada vez que se integra un nuevo cliente o se inicia un proyecto de alto riesgo. Esta estrategia adaptable nos permite escalar nuestros esfuerzos de compliance sin descuidar los requisitos críticos de seguridad. Con el crecimiento de la organización, planeamos establecer un proceso de auditoría periódico, alineado a las mejores prácticas."
+  },
+  {
+    "category": "General y PSSI",
+    "question": "¿Existe un mecanismo de mejora para abordar e integrar las no conformidades?",
+    "answer": "Sí, contamos con un mecanismo de mejora reactivo que se activa tan pronto como se identifican no conformidades. Aunque aún no está centralizado en un solo proceso formal, sistemáticamente registramos observaciones e integramos las correcciones necesarias en nuestros flujos de trabajo para garantizar la mejora continua de nuestra postura de seguridad y el alineamiento con las mejores prácticas emergentes. Seguimos evaluando cómo formalizar aún más este enfoque."
+  },
+  {
+    "category": "General y PSSI",
+    "question": "¿Ha obtenido certificaciones en el ámbito de la seguridad de sistemas de información (ej. ISO 27001, SOC2 tipo 2) para su alcance de servicio?",
+    "answer": "Aún no hemos perseguido certificaciones formales como ISO 27001 o SOC2, pero alineamos activamente nuestras prácticas internas con estas normativas para garantizar altos estándares de protección. Estamos evaluando los beneficios de obtener una certificación oficial y es posible que la busquemos en el futuro cercano como parte de nuestro compromiso continuo con la mejora en seguridad y la confianza de los stakeholders."
+  },
+  {
+    "category": "General y PSSI",
+    "question": "¿Dispone de un inventario de todo su software y componentes utilizados (ej. bibliotecas)?",
+    "answer": "Sí, mantenemos un inventario completo y actualizado de todo el software y las bibliotecas de código abierto que usamos, lo que nos permite supervisar la seguridad y gestionar costos de forma eficiente. Además, realizamos un riguroso proceso de due diligence antes de incorporar nuevas herramientas o servicios, que incluye revisiones GDPR, verificaciones anticorrupción y evaluaciones de compliance de proveedores."
+  },
+  {
+    "category": "User awareness and training",
+    "question": "¿Dispone de un proceso de concienciación en seguridad IT?",
+    "answer": "Sí, mantenemos un proceso formal de concienciación que incluye sesiones de formación obligatorias y actividades educativas continuas. El programa enfatiza prácticas clave como la detección de phishing, el desarrollo seguro y el cumplimiento en materia de privacidad, adaptándose a cada rol dentro de la organización."
+  },
+  {
+    "category": "Access Authorization Management",
+    "question": "¿Se han definido perfiles de autorización? En caso afirmativo, ¿respetan el principio de mínimo privilegio y la separación de funciones?",
+    "answer": "Sí. Hemos definido perfiles de autorización robustos que se adhieren estrictamente al principio de mínimo privilegio y aseguran una clara separación de funciones, garantizando que cada usuario disponga únicamente de los derechos necesarios para su rol, minimizando riesgos internos."
+  },
+  {
+    "category": "Access Authorization Management",
+    "question": "¿Existe un procedimiento para crear, modificar y eliminar identificadores que esté definido e implementado? De ser así, descríbalo.",
+    "answer": "Sí. Seguimos un procedimiento documentado para el ciclo de vida de las identidades. Todas las solicitudes de cuenta —ya sean nuevas, modificadas o eliminadas— deben ser autorizadas por un gestor designado y registradas en nuestro sistema de tickets. Cuando un empleado cambia de rol o deja la empresa, sus credenciales se revocan o ajustan de inmediato para evitar accesos no autorizados."
+  },
+  {
+    "category": "Access Authorization Management",
+    "question": "¿Se aplica la autenticación multifactor (MFA) tanto para administradores como para usuarios?",
+    "answer": "Sí. Implementamos MFA para administradores y usuarios estándar, generalmente a través de contraseñas de un solo uso basadas en tiempo (TOTP), tokens físicos o códigos vía SMS, reduciendo significativamente el riesgo de accesos no autorizados."
+  },
+  {
+    "category": "Access Authorization Management",
+    "question": "¿Se han implementado métodos de autenticación robustos basados en mecanismos criptográficos (ej. RGS o recomendaciones de la CNIL)? De ser así, descríbalos.",
+    "answer": "Absolutamente. Empleamos estándares criptográficos de alto nivel —encriptación AES-256, protocolos TLS seguros y algoritmos de hash avanzados como Argon2— para garantizar la protección de los datos. Estos mecanismos están alineados con las recomendaciones internacionales, tales como las directrices de la CNIL y las disposiciones del RGS."
+  },
+  {
+    "category": "Access Authorization Management",
+    "question": "¿Ha definido una política de contraseñas fuerte? En caso afirmativo, descríbala para usuarios y para administradores.",
+    "answer": "Sí. Nuestra política de contraseñas exige un mínimo de 12 caracteres, utilizando una combinación de letras mayúsculas, minúsculas, números y caracteres especiales. La reutilización de contraseñas está estrictamente prohibida, y para los administradores aplicamos reglas adicionales de complejidad para mitigar riesgos elevados."
+  },
+  {
+    "category": "Access Authorization Management",
+    "question": "¿Se requiere que los usuarios cambien su contraseña de forma periódica?",
+    "answer": "Sí. Solicitamos a los administradores que cambien sus contraseñas cada 90 días, mientras que a los usuarios estándar se les pide que las roten cada 180 días. Si se detecta algún indicio de compromiso, el cambio es inmediato."
+  },
+  {
+    "category": "Access Authorization Management",
+    "question": "¿Se registran los inicios de sesión exitosos y fallidos en logs?",
+    "answer": "Sí. Todos los intentos de inicio de sesión, ya sean exitosos o fallidos, se registran y se integran en nuestra plataforma SIEM, lo que permite alertas en tiempo real y análisis históricos para detectar rápidamente cualquier actividad sospechosa."
+  },
+  {
+    "category": "Access Authorization Management",
+    "question": "¿Se han implementado mecanismos para detectar compromisos en el acceso? En caso afirmativo, descríbalos.",
+    "answer": "Sí. Utilizamos un sistema integrado de detección de intrusiones y monitoreo de anomalías que activa alertas automáticas cuando el comportamiento de acceso se desvía de los estándares establecidos o cuando múltiples intentos fallidos superan el umbral definido."
+  },
+  {
+    "category": "Access Authorization Management",
+    "question": "¿Ha implementado Single Sign-On (SSO) compatible con protocolos como SAML? De ser así, ¿cuál?",
+    "answer": "Sí. Hemos implementado SSO en nuestros sistemas internos principales para simplificar la gestión de identidades y reforzar la seguridad. Soportamos protocolos estándar como SAML y OAuth2, garantizando compatibilidad y una experiencia de usuario optimizada."
+  },
+  {
+    "category": "Access Authorization Management",
+    "question": " ¿Se revisan periódicamente los derechos de acceso? En caso afirmativo, ¿con qué frecuencia?",
+    "answer": "Sí. Realizamos revisiones trimestrales en sistemas críticos, enfocándonos en roles y permisos de alto riesgo, y una revisión semestral para sistemas corporativos generales, asegurando que los privilegios se mantengan alineados a las responsabilidades asignadas."
+  },
+  {
+    "category": "Monitoring and Traceability",
+    "question": "¿Se ha implementado un sistema de logs?",
+    "answer": "Sí. Mantenemos un sistema integral que captura eventos y transacciones críticas a lo largo de nuestra infraestructura y aplicaciones clave."
+  },
+  {
+    "category": "Monitoring and Traceability",
+    "question": "¿Se rastrean las acciones de los administradores?",
+    "answer": "Absolutamente. Implementamos un seguimiento intensificado para las acciones de los administradores, registrando logs detallados que permiten una total responsabilidad y facilitan el análisis forense cuando es necesario."
+  },
+  {
+    "category": "Monitoring and Traceability",
+    "question": "¿Se ha implementado una gestión centralizada de logs (de infraestructura y de aplicaciones)?",
+    "answer": "Sí. Utilizamos una solución centralizada, integrada en nuestro SIEM, para recopilar, analizar y almacenar logs provenientes de toda la infraestructura y las aplicaciones."
+  },
+  {
+    "category": "Monitoring and Traceability",
+    "question": "¿Dispone de una consola de visualización en tiempo real de los logs?",
+    "answer": "Sí. Nuestro SIEM cuenta con un dashboard en tiempo real al que pueden acceder los equipos de seguridad y los stakeholders para monitorear actividades sospechosas o anómalas."
+  },
+  {
+    "category": "Monitoring and Traceability",
+    "question": "¿Cuál es el período de retención de logs?",
+    "answer": "Retenemos los logs durante al menos un año, en consonancia con nuestras obligaciones de compliance. En entornos sensibles, este periodo puede extenderse de acuerdo con requisitos contractuales."
+  },
+  {
+    "category": "Monitoring and Traceability",
+    "question": "¿Dispone de un SOC (Centro de Operaciones de Seguridad)?",
+    "answer": "Sí. Operamos un SOC bajo un modelo híbrido, combinando nuestro equipo interno de respuesta a incidentes con un proveedor especializado externo, lo que garantiza la monitorización continua, la escalada rápida y una respuesta experta ante amenazas las 24 horas del día."
+  },
+  {
+    "category": "Physical security",
+    "question": "¿Dónde se alojan los datos? Si utiliza un proveedor, mencione su nombre.",
+    "answer": "Principalmente, alojamos nuestros datos en Amazon Web Services (AWS), desplegados en regiones europeas para cumplir con el GDPR y en São Paulo para satisfacer regulaciones locales. También utilizamos Cloudflare para la entrega de contenido y Google Workspace para la colaboración y correo electrónico. Las copias de seguridad se cifran y se almacenan en AWS S3 en São Paulo con etiquetado de versiones habilitado."
+  },
+  {
+    "category": "Physical security",
+    "question": "¿Los centros donde se alojan los datos cumplen con los requisitos de seguridad física (controles de acceso, sistemas anti-intrusión, etc.)? Describa los mecanismos implementados.",
+    "answer": "Sí. Los data centers de AWS cuentan con salvaguardas físicas robustas, como cercas perimetrales, vigilancia por CCTV, controles biométricos y seguridad 24/7, en conformidad con estándares reconocidos como ISO 27001 y SOC 2. Controles similares se aplican en las instalaciones globales de Cloudflare y en los centros de Google, garantizando que sólo el personal autorizado tenga acceso."
+  },
+  {
+    "category": "Physical security",
+    "question": "¿Están protegidos los cables de alimentación y telecomunicaciones utilizados para transportar datos?",
+    "answer": "Sí. AWS y otros proveedores utilizan rutas redundantes y soluciones avanzadas de gestión de cables para proteger las líneas eléctricas y de comunicación. El cableado se realiza a través de conductos o bandejas cerradas, reduciendo el riesgo de daños accidentales o manipulaciones no autorizadas, en línea con las mejores prácticas internacionales."
+  },
+  {
+    "category": "Security related to operations",
+    "question": "¿Dispone de un inventario actualizado de todos los componentes del sistema de información (por ejemplo, CMDB)?",
+    "answer": "Mantenemos un inventario actualizado de los componentes críticos del sistema, lo que nos brinda visibilidad sin generar cargas administrativas excesivas, aunque no utilizamos una CMDB formalizada."
+  },
+  {
+    "category": "Security related to operations",
+    "question": "¿Existe un proceso de gestión de cambios para el sistema de información que garantice la seguridad en las actualizaciones técnicas y de aplicaciones?",
+    "answer": "Sí. Seguimos un proceso de gestión de cambios ágil que requiere pruebas, revisiones por parte de colegas y aprobaciones previas al despliegue, lo que garantiza actualizaciones seguras sin interrumpir la operatividad."
+  },
+  {
+    "category": "Security related to operations",
+    "question": "¿Se ha implementado un procedimiento automático de bloqueo de sesión en los workstations?",
+    "answer": "Sí. En todos los dispositivos corporativos, incluidos los equipos macOS, se activa un bloqueo automático tras un corto periodo de inactividad, requiriendo reautenticación para minimizar el riesgo de acceso no autorizado."
+  },
+  {
+    "category": "Security related to operations",
+    "question": "¿Utiliza antivirus o soluciones EDR actualizadas regularmente para proteger los workstations?",
+    "answer": "Utilizamos una combinación de las funciones de seguridad nativas de macOS y soluciones EDR ligeras que se actualizan automáticamente y ofrecen detección en tiempo real, sin comprometer el rendimiento."
+  },
+  {
+    "category": "Security related to operations",
+    "question": "¿Se ha instalado un firewall en los workstations que registre los flujos bloqueados y detecte errores de configuración o intentos de intrusión?",
+    "answer": "Sí. Aprovechamos el firewall integrado en macOS, complementado con reglas personalizadas. Los eventos críticos se registran centralmente para permitir un diagnóstico rápido de fallos y detectar intentos de intrusión, sin afectar la experiencia del usuario."
+  },
+  {
+    "category": "Security related to operations",
+    "question": "¿Se protegen los equipos y la información de los logs?",
+    "answer": "Sí. Los logs se agrupan y protegen en nuestra plataforma SIEM, con acceso restringido siguiendo el principio del mínimo privilegio y con un cifrado robusto para asegurar su confidencialidad e integridad."
+  },
+  {
+    "category": "Security related to operations",
+    "question": "¿Se ha implementado la encriptación para el almacenamiento?",
+    "answer": "Sí. Activamos la encriptación de disco en macOS mediante FileVault y, en la nube, empleamos encriptación AES-256 para todos los datos almacenados, incluidas las copias de seguridad."
+  },
+  {
+    "category": "Security related to operations",
+    "question": "¿Existen herramientas técnicas para la detección de vulnerabilidades que se actualicen diariamente?",
+    "answer": "Sí. Contamos con un servicio de escaneo de vulnerabilidades de terceros que verifica periódicamente nuestro código e infraestructura, actualizándose diariamente para detectar nuevas amenazas."
+  },
+  {
+    "category": "Security related to operations",
+    "question": "¿Se instalan las actualizaciones y parches de seguridad dentro de un plazo definido según la política de updates?",
+    "answer": "Sí. Nuestra política exige que los parches críticos se instalen lo más pronto posible (generalmente en días), mientras que las actualizaciones de rutina siguen un calendario predefinido, asegurando una respuesta rápida sin comprometer la estabilidad."
+  },
+  {
+    "category": "Security related to operations",
+    "question": " ¿Se realizan escaneos periódicos (al menos mensuales) para detectar vulnerabilidades?",
+    "answer": "Sí. Se efectúan escaneos de vulnerabilidades al menos mensualmente, y en sistemas críticos o ante amenazas emergentes se realizan con mayor frecuencia. Los hallazgos de alta severidad activan medidas de remediación inmediatas y verificaciones adicionales para confirmar la corrección."
+  },
+  {
+    "category": "Security of communications",
+    "question": "¿Se han segmentado los servicios expuestos a Internet del resto del sistema de información?",
+    "answer": "Principalmente utilizamos servicios cloud (AWS, Google Workspace, Cloudflare). Los servicios destinados a Internet se gestionan en entornos dedicados, asegurando el aislamiento lógico de los componentes sensibles, aunque no se aplica una segmentación física tradicional."
+  },
+  {
+    "category": "Security of communications",
+    "question": "¿Se ha implementado una segmentación de red (separando almacenamiento, procesamiento e interfaces externas) basada en riesgos?",
+    "answer": "Como software house moderna, optamos por la segmentación basada en la nube a través de VPC y cargas containerizadas, lo que nos permite aislar servicios según el perfil de riesgo. Aunque los MacBooks no están físicamente segmentados en la red interna, sus configuraciones de seguridad reducen la exposición."
+  },
+  {
+    "category": "Security of communications",
+    "question": "¿Se utilizan protocolos cifrados para todo el tráfico interno y externo?",
+    "answer": "Sí. Todo el tráfico se realiza mediante protocolos cifrados, principalmente HTTPS/TLS, tanto en entornos internos cloud como en servicios dirigidos a usuarios externos, asegurando la confidencialidad e integridad de la información."
+  },
+  {
+    "category": "Security of communications",
+    "question": "¿Se ha implementado un gateway seguro para el acceso a Internet que incluya al menos un firewall cercano al punto de acceso y un proxy con mecanismos de seguridad?",
+    "answer": "Nos apoyamos en los controles de seguridad incorporados de AWS, Cloudflare y Google, que actúan como nuestro gateway seguro en la nube, con reglas de firewall en el edge y protecciones a nivel de aplicación (por ejemplo, Cloudflare WAF). No operamos un proxy on-premise separado, sino que nuestras soluciones en la nube proporcionan múltiples capas de seguridad y filtrado."
+  },
+  {
+    "category": "Security of communications",
+    "question": "¿Se revisan periódicamente las reglas de filtrado? En caso afirmativo, ¿con qué frecuencia?",
+    "answer": "Sí. Revisamos la configuración de los grupos de seguridad y de los firewalls trimestralmente, o antes si se introducen nuevas funcionalidades o surgen demandas específicas, para garantizar que las reglas se mantengan en línea con las mejores prácticas."
+  },
+  {
+    "category": "Security of communications",
+    "question": "¿Dispone de un sistema antivirus previo a las bandejas de correo para evitar la recepción de archivos infectados?",
+    "answer": "Sí. Google Workspace analiza automáticamente los correos entrantes en búsqueda de malware y virus, complementado por soluciones de monitoreo en los endpoints, lo cual añade una capa extra de protección contra archivos infectados."
+  },
+  {
+    "category": "Security of communications",
+    "question": "¿Se ha implementado un servicio anti-spam para los correos electrónicos intercambiados por Internet?",
+    "answer": "Sí. Utilizamos el filtrado anti-spam integrado en Google Workspace, que emplea algoritmos avanzados para bloquear correos de phishing y spam, reduciendo significativamente el riesgo de que contenido malicioso llegue a los usuarios."
+  },
+  {
+    "category": "Security of communications",
+    "question": "¿Se han implementado mecanismos para verificar la autenticidad?",
+    "answer": "Sí. Aplicamos protocolos estándar de autenticación de correo (SPF, DKIM, DMARC) para verificar la identidad del remitente. Además, el acceso a los servicios en la nube requiere MFA, lo que refuerza la verificación de identidad."
+  },
+  {
+    "category": "Security of communications",
+    "question": "¿Está asegurado el acceso remoto a dispositivos móviles mediante VPN y autenticación multifactor?",
+    "answer": "Utilizamos VPN solo cuando es requerido por clientes o en entornos de alta seguridad, siempre complementado por MFA. En la mayoría de los escenarios de trabajo remoto, la seguridad se garantiza mediante conexiones cifradas y MFA, sin la necesidad de túneles VPN exclusivos."
+  },
+  {
+    "category": "Incident Management",
+    "question": "¿Ha definido un procedimiento de gestión de incidentes de seguridad?",
+    "answer": "Sí. Disponemos de procedimientos documentados para identificar, reportar y resolver incidentes de seguridad, adaptados a las necesidades específicas de cada cliente para contener amenazas, analizar sus causas y restaurar las operaciones con mínima interrupción."
+  },
+  {
+    "category": "Incident Management",
+    "question": "¿Se han establecido procedimientos para notificar violaciones de datos personales?",
+    "answer": "Sí. Seguimos protocolos claros para la notificación de brechas de seguridad, alineados con las regulaciones regionales y los requisitos de los clientes. En caso de violación, se alerta inmediatamente a los afectados, se realiza un análisis de causa raíz y se definen acciones correctivas según normativas como el GDPR o LGPD."
+  },
+  {
+    "category": "Incident Management",
+    "question": "¿Se han implementado soluciones seguras para proteger las contraseñas almacenadas en los sistemas?",
+    "answer": "Sí. Utilizamos soluciones de almacenamiento de contraseñas cifradas, aprovechando algoritmos modernos (por ejemplo, Argon2), y exigimos MFA para prevenir accesos no autorizados. Además, se aplican bóvedas de contraseñas y controles basados en roles para reforzar la seguridad de las credenciales."
+  },
+  {
+    "category": "Incident Management",
+    "question": "¿Existe un plan de gestión de crisis cibernéticas, debidamente actualizado y probado anualmente?",
+    "answer": "Aunque no contamos con un plan de crisis cibernética formalizado por separado, confiamos en la resiliencia integrada de nuestros proveedores cloud (AWS, Google, Cloudflare) y mantenemos un marco de escalamiento flexible. Realizamos ejercicios tipo tabletop cuando es necesario, ajustando y mejorando los procedimientos conforme evolucionan la tecnología y las amenazas."
+  },
+  {
+    "category": "Incident Management",
+    "question": "¿Dispone de un CERT (Equipo de Respuesta ante Emergencias Informáticas)?",
+    "answer": "No de forma permanente. Para proyectos de alta seguridad, colaboramos con proveedores CERT especializados o formamos un equipo de respuesta dedicado, lo que nos permite adaptar los recursos a cada perfil de riesgo sin necesidad de mantener un CERT interno continuo."
+  },
+  {
+    "category": "Subcontracting Security",
+    "question": "¿Los contratos con sus subcontratistas incluyen cláusulas específicas de seguridad?",
+    "answer": "Sí. Nuestros acuerdos con subcontratistas incorporan cláusulas de seguridad estrictas, que incluyen NDA, SLA bien definidos y criterios objetivos de desempeño. Además, se establece la jurisdicción para la resolución de disputas, lo que obliga a todas las partes a cumplir con altos estándares de confidencialidad y protección de datos."
+  },
+  {
+    "category": "Subcontracting Security",
+    "question": "¿Se verifica de forma periódica la aplicación efectiva de los principios de seguridad?",
+    "answer": "Sí. Realizamos revisiones periódicas y verificamos referencias antes de aprobar nuevos subcontratistas, además de monitorear a los socios existentes mediante KPIs, auditorías puntuales y comunicación continua, minimizando los riesgos y asegurando la integridad operativa."
+  },
+  {
+    "category": "Project Information Systems",
+    "question": " ¿Se evalúan y valoran los riesgos asociados a cada proyecto según criterios predefinidos para medir su impacto en la seguridad del sistema de información?",
+    "answer": "Sí. Aplicamos un protocolo estructurado de evaluación de riesgos para cada fase del proyecto, en colaboración con el departamento técnico del cliente, lo que garantiza una visión compartida sobre posibles amenazas y su impacto en los sistemas críticos."
+  },
+  {
+    "category": "Project Information Systems",
+    "question": " ¿Están enmarcadas las intervenciones de mantenimiento realizadas por terceros?",
+    "answer": "Sí. Todas las actividades de mantenimiento realizadas por socios externos se realizan bajo contratos de servicio bien definidos, NDA y SLA, trabajando únicamente con proveedores verificados y manteniendo un control cercano para que se cumplan los mismos estándares de seguridad internos."
+  },
+  {
+    "category": "Project Information Systems",
+    "question": " ¿Se realizan las tareas de desarrollo e integración de sistemas en un entorno de desarrollo seguro?",
+    "answer": "Sí. Utilizamos planes empresariales de GitHub y otros repositorios controlados para garantizar la integridad y confidencialidad del código. Nuestro entorno incluye escaneos automatizados de vulnerabilidades, controles de calidad de código (incluyendo revisiones asistidas por IA) y estrictos controles de acceso. Estas medidas se coordinan estrechamente con los requerimientos de seguridad del cliente."
+  },
+  {
+    "category": "Project Information Systems",
+    "question": " ¿Se verifica el nivel de seguridad antes de la entrega (auditoría de código, pruebas de penetración, etc.)?",
+    "answer": "Absolutamente. Antes de lanzar actualizaciones o entregables finales, realizamos auditorías de código y pruebas de penetración, a menudo mediante socios como Artillery o Bureau Veritas, y utilizamos escáneres de seguridad basados en IA para validar la calidad del código y detectar vulnerabilidades. Esta estrategia validada en múltiples capas nos permite ofrecer soluciones seguras y fiables."
+  },
+  {
+    "category": "Backups Management",
+    "question": " ¿Ha implementado una política de backup? En caso afirmativo, descríbala.",
+    "answer": "Sí. Contamos con una política formal de backup que obliga a la generación regular y automatizada de snapshots de datos e infraestructuras críticas. Los backups se programan, se monitorean y se versionan para asegurar su recuperabilidad con el mínimo tiempo de inactividad."
+  },
+  {
+    "category": "Backups Management",
+    "question": " ¿Dónde se ubican los backups?",
+    "answer": "Nuestros backups se alojan principalmente en AWS S3 en São Paulo, con replicación automática a otras regiones de AWS para garantizar la redundancia. Además, ciertos servicios como Google Workspace y Cloudflare implementan sus propios mecanismos de respaldo que complementan nuestro enfoque."
+  },
+  {
+    "category": "Backups Management",
+    "question": " ¿Están cifrados los backups?",
+    "answer": "Absolutamente. Todos los backups almacenados en AWS S3 están protegidos mediante cifrado del lado del servidor (AES-256), garantizando la confidencialidad de los datos tanto en reposo como en tránsito."
+  },
+  {
+    "category": "Backups Management",
+    "question": " ¿Se almacenan de forma segura (contra degradación, pérdida o robo)?",
+    "answer": "Sí. AWS ofrece durabilidad a través de un almacenamiento redundante en múltiples zonas de disponibilidad, reforzado con políticas de versionado y WORM, protegiendo los backups contra eliminaciones accidentales o alteraciones maliciosas."
+  },
+  {
+    "category": "Backups Management",
+    "question": " ¿Se prueba regularmente el proceso de recuperación? En caso afirmativo, ¿con qué frecuencia?",
+    "answer": "Sí. Realizamos simulacros de recuperación y pruebas puntuales, al menos de forma trimestral, o con mayor frecuencia en entornos críticos, para garantizar la restauración rápida y efectiva de los datos."
+  },
+  {
+    "category": "Backups Management",
+    "question": " ¿Puede describir su política de retención? (por ejemplo, en cuanto a la duración)",
+    "answer": "Nuestra política de retención varía según la sensibilidad de los datos y los requerimientos del cliente. Generalmente, retenemos los backups por al menos 90 días, con versiones incrementales para escenarios de recuperación ante desastres, pudiendo extenderse hasta un año o más según las obligaciones de compliance."
+  },
+  {
+    "category": "Backups Management",
+    "question": " ¿Dispone de una copia de backup offline o inmutable?",
+    "answer": "No mantenemos backups puramente offline, pero sí utilizamos backups inmutables en AWS S3 mediante WORM, lo que impide cualquier modificación posterior y ofrece una fuerte protección contra ransomware sin la sobrecarga de mantener un respaldo totalmente offline."
+  },
+  {
+    "category": "Business Continuity",
+    "question": " ¿Ha implementado un plan de continuidad de negocio y de recuperación ante desastres? ¿Se prueba anualmente, está sujeto a mejora continua y cubre escenarios cibernéticos?",
+    "answer": "Sí. Mantenemos un enfoque optimizado de continuidad y recuperación, apoyándonos en servicios robustos en la nube (AWS, Google Workspace, Cloudflare). Aunque no disponemos de un plan exhaustivo para todos los escenarios, contamos con protocolos clave —especialmente para incidentes cibernéticos— que se prueban al menos una vez al año y se mejoran de forma continua."
+  },
+  {
+    "category": "Business Continuity",
+    "question": " Describa el proceso de su plan de Disaster Recovery y de Business Continuity.",
+    "answer": "Nuestro plan se centra en un failover rápido hacia entornos cloud geográficamente distribuidos, respaldado por backups de datos y rutas de escalamiento definidas para la dirección. Utilizamos mecanismos automáticos de failover dentro de AWS y mantenemos alianzas estrechas con nuestros proveedores, mientras que los acuerdos corporativos establecen roles y responsabilidades en situaciones de crisis para una rápida reanudación de las operaciones."
+  },
+  {
+    "category": "Business Continuity",
+    "question": " ¿La organización ha definido e implementado el Maximum Allowable Downtime (MAD) y el Maximum Allowable Data Loss (MADL) para asegurar la continuidad del servicio y la integridad de los datos?",
+    "answer": "Sí, de forma informal. Monitorizamos los objetivos de tiempo de recuperación (RTO) y los puntos de recuperación (RPO) adecuados para cada contrato. Aunque no utilizamos explícitamente los términos MAD o MADL, establecemos umbrales claros durante el inicio del proyecto que aseguran tanto la continuidad del servicio como la integridad de los datos según las expectativas del cliente y nuestros propios estándares de resiliencia."
+  },
+  {
+    "category": "Data Security",
+    "question": " ¿Ha implementado la clasificación de la información?",
+    "answer": "Sí, aunque de forma simplificada. Clasificamos los datos en categorías (público, interno, confidencial) según su sensibilidad y requisitos regulatorios, lo que orienta los controles de acceso, los lugares de almacenamiento y los procedimientos de manejo."
+  },
+  {
+    "category": "Data Security",
+    "question": " ¿Se implementa la destrucción segura de medios no utilizados?",
+    "answer": "Sí. Principalmente utilizamos almacenamiento en la nube, lo cual elimina la mayoría de los medios físicos. Para dispositivos de almacenamiento locales, se aplican métodos de borrado seguro o destrucción física conforme a las mejores prácticas."
+  },
+  {
+    "category": "Data Security",
+    "question": " ¿Dispone de dispositivos de detección o prevención de fugas de información (DLP)?",
+    "answer": "Confiamos en los servicios nativos de AWS, la protección de Google Workspace y los filtros de Cloudflare para detectar y mitigar posibles fugas de datos. Aunque no contamos con un aparato DLP tradicional, configuramos alertas mediante nuestro SIEM para detectar movimientos inusuales de información."
+  },
+  {
+    "category": "Data Security",
+    "question": " ¿Se anonimizan los datos de entornos no productivos?",
+    "answer": "Sí. En entornos de prueba o desarrollo, los identificadores sensibles se sustituyen por valores sintéticos o enmascarados, evitando la exposición inadvertida de datos personales o confidenciales."
+  },
+  {
+    "category": "Data Security",
+    "question": " ¿Cómo garantiza la reversibilidad, incluida la restauración de los datos en un formato legible para subcontratistas y clientes?",
+    "answer": "Realizamos backups de forma rutinaria en formatos estandarizados y bien documentados (ej. volcado SQL, exportaciones CSV). Al finalizar un contrato, proporcionamos a los clientes o subcontratistas los datos en un formato que pueden importar y utilizar fácilmente, y nuestro enfoque basado en AWS simplifica tanto las restauraciones parciales como totales."
+  },
+  {
+    "category": "Data Security",
+    "question": " ¿Se cifran las bases de datos? En caso afirmativo, ¿cuáles?",
+    "answer": "Sí. Las instancias de AWS RDS están cifradas por defecto con AES-256, lo que abarca toda la base de datos y sus backups. Además, se utiliza TLS para cifrar la transmisión de datos, garantizando la protección tanto en reposo como en tránsito."
+  },
+  {
+    "category": "Data Security",
+    "question": " ¿Los datos solo se acceden en la UE?",
+    "answer": "No exclusivamente. Los datos se alojan y se accede a ellos según los requerimientos geográficos y de compliance de cada proyecto. Muchos clientes europeos utilizan regiones de AWS en la UE, mientras que otros en LATAM o Norteamérica pueden requerir ubicaciones específicas. En cualquier caso, aplicamos medidas de seguridad consistentes según el GDPR y otras normativas relevantes."
+  },
+  {
+    "category": "Compliance",
+    "question": " ¿Cumple con los requisitos de la directiva europea NIS2?",
+    "answer": "Actualmente, no estamos formalmente sujetos a NIS2, principalmente por nuestra constitución brasileña y el alcance de nuestras operaciones; sin embargo, nos mantenemos informados sobre las nuevas regulaciones en la UE y evaluamos periódicamente la necesidad de adaptarnos conforme nuestros compromisos europeos se expanden."
+  },
+  {
+    "category": "Compliance",
+    "question": " Describa cómo gestionan los datos personales y el cumplimiento de las leyes de privacidad (Europa):",
+    "answer": "Adoptamos prácticas en línea con el GDPR para proyectos que involucren a residentes europeos. Esto incluye la obtención de consentimientos adecuados, el mantenimiento de registros precisos del procesamiento de datos y el manejo seguro de la información mediante cifrado y estrictos controles de acceso. Además, incorporamos cláusulas contractuales estándar (SCC) para las transferencias internacionales de datos y colaboramos con proveedores de nube de confianza con medidas de protección robustas."
+  },
+  {
+    "category": "Compliance",
+    "question": " Describa su proceso de auditoría y revisión del ISMS:",
+    "answer": "Nuestro sistema de gestión de la seguridad de la información (ISMS) se revisa de forma puntual, especialmente al incorporar nuevos clientes o lanzar proyectos críticos. Si bien no tenemos un ciclo de auditorías externas de forma constante, realizamos evaluaciones internas basadas en riesgos y colaboramos con evaluadores externos en proyectos selectos para impulsar mejoras específicas."
+  },
+  {
+    "category": "Compliance",
+    "question": " ¿Cómo asegura la organización el cumplimiento del GDPR, incluyendo la gestión de datos personales, el acceso de los clientes a sus datos y la protección del anonimato a través de medidas de anonimización?",
+    "answer": "• Gestión de Datos: Almacenamos datos personales en bases de datos cifradas en AWS, separando los entornos de producción y prueba para minimizar la exposición innecesaria.\n• Derechos de los Sujetos: Si se solicita, verificamos la identidad del solicitante y respondemos de acuerdo a los plazos establecidos por el GDPR.\n• Anonimización: Para fines analíticos y de prueba, aplicamos técnicas de enmascaramiento o tokenización para eliminar identificadores directos.\n• Formación y Supervisión: Realizamos entrenamientos puntuales en GDPR y mantenemos registros actualizados de las actividades de procesamiento para asegurar que todo el personal esté consciente de sus obligaciones en materia de privacidad."
+  },
+  {
+    "category": "Compliance",
+    "question": " Describa cómo se aborda la reversibilidad (fin de contrato):",
+    "answer": "Al finalizar un contrato, proporcionamos a los clientes o a subcontratistas autorizados un proceso claro para exportar sus datos en un formato estándar (por ejemplo, volcado SQL o exportación CSV). Tras un período de transición definido, eliminamos de forma segura cualquier copia residual, salvo que la legislación o acuerdos específicos requieran su retención."
+  },
+  {
+    "category": "Compliance",
+    "question": " Describa su política de retención de datos:",
+    "answer": "Nuestra política base de retención es de 90 días para las copias de seguridad, con posibilidad de extenderse hasta un año o más si así lo exigen las normativas o los acuerdos con los clientes. Los datos de producción se conservan durante la vigencia del contrato, con opción a archivar registros históricos para evidencias de compliance, siempre asegurando el almacenamiento seguro, el cifrado y la eliminación controlada."
+  },
+  {
+    "category": "Hosting",
+    "question": " ¿Qué servicios se utilizan?",
+    "answer": "Utilizamos principalmente Amazon Web Services (AWS) para el hosting y la infraestructura, complementado por Google Workspace y Cloudflare para soluciones de correo, colaboración y entrega de contenido/servicios de seguridad."
+  },
+  {
+    "category": "Hosting",
+    "question": " ¿Dónde se encuentran ubicados los servidores y los datos?",
+    "answer": "La mayor parte de nuestros datos y servidores se ubican en regiones de AWS dentro de la UE (por ejemplo, Irlanda, Frankfurt) y en São Paulo, Brasil, en función de las necesidades del cliente y de compliance. Esto garantiza proximidad a los usuarios finales y el cumplimiento de las normativas de protección de datos."
+  },
+  {
+    "category": "Hosting",
+    "question": " ¿Dispone de un DRP? En caso afirmativo, descríbalo.",
+    "answer": "Sí. Aprovechamos la redundancia multi-región y las capacidades de snapshot automatizado de AWS como columna vertebral de nuestro Plan de Recuperación ante Desastres (DRP). Realizamos copias de seguridad de forma regular en S3, con versionado y políticas WORM, lo que nos permite desplegar rápidamente infraestructura en regiones alternativas en caso de fallo en la principal. Probamos nuestros procedimientos de restauración de forma periódica para validar su efectividad."
+  },
+  {
+    "category": "Hosting",
+    "question": " SLA y tipo de contrato entre el proveedor y el publicador:",
+    "answer": "Operamos bajo el SLA empresarial estándar de AWS, que garantiza tiempos de actividad, tiempos de respuesta y créditos de servicio en caso de interrupciones. Además, negociamos SLAs específicos con nuestros clientes que pueden incorporar o ampliar los términos de AWS para asegurar el alineamiento con los requerimientos del proyecto y el nivel de riesgo aceptable."
+  },
+  {
+    "category": "Hosting",
+    "question": " ¿Cuál es el protocolo de retorno al entorno primario (switch back)?",
+    "answer": "En caso de fallar hacia una región secundaria, nuestro plan consiste en sincronizar las modificaciones de datos de regreso a la región primaria una vez que se restablezca la estabilidad del servicio. Tras verificar la integridad de los datos y el estado del sistema, se procede a retornar al entorno primario mediante secuencias automatizadas y pasos de verificación manual, para garantizar que no se produzca pérdida de información."
+  },
+  {
+    "category": "Hosting",
+    "question": " ¿Dispone de certificaciones de seguridad demostrables?",
+    "answer": "No contamos con certificaciones formales específicas para nuestra organización (por ejemplo, ISO 27001 o SOC 2), pero AWS posee múltiples certificaciones reconocidas internacionalmente, incluyendo ISO 27001, SOC 2 y PCI DSS. Nuestras prácticas se alinean con esos marcos, aprovechando su herencia de compliance para reforzar nuestra seguridad."
+  },
+  {
+    "category": "Software",
+    "question": " ¿Se realizan revisiones de código en las aplicaciones?",
+    "answer": "Sí. Exigimos que todos los commits sean revisados obligatoriamente por pares y utilizamos herramientas de análisis estático basadas en IA (por ejemplo, GitHub Advanced Security, CodeRabbit) para identificar posibles vulnerabilidades y asegurar las mejores prácticas de codificación."
+  },
+  {
+    "category": "Software",
+    "question": " ¿Se efectúan pentesting de forma regular?",
+    "answer": "Sí. Realizamos pruebas de penetración periódicas utilizando socios como Artillery, centradas en aplicaciones e infraestructuras críticas para detectar y remediar proactivamente brechas de seguridad antes de que se conviertan en problemas."
+  },
+  {
+    "category": "Services and layers",
+    "question": " ¿Qué servicios se utilizan?",
+    "answer": "Nuestros servicios centrales se ejecutan en AWS, aprovechando recursos como EC2 (computación), RDS (bases de datos relacionales) y S3 (almacenamiento de objetos). Empleamos Cloudflare para CDN y seguridad, y Google Workspace para productividad y colaboración, integrando también APIs de terceros según las necesidades del proyecto."
+  },
+  {
+    "category": "Services and layers",
+    "question": " Describa las diferentes capas de la aplicación:",
+    "answer": "Generalmente, adoptamos un enfoque de tres niveles (o basado en microservicios):\n• Capa de Presentación: Código front-end (por ejemplo, React, Vue.js o Angular) servido mediante AWS CloudFront o Cloudflare para ofrecer una interfaz rápida y segura.\n• Capa de Aplicación/Servicio: API y lógica de negocio, usualmente desarrolladas en Node.js, Python o Java, desplegadas en AWS (EC2, ECS o Lambda) utilizando contenedores Docker.\n• Capa de Datos: AWS RDS o servicios NoSQL (por ejemplo, DynamoDB) gestionan el almacenamiento persistente de datos, complementado por AWS S3 para activos basados en archivos."
+  },
+  {
+    "category": "Services and layers",
+    "question": " Enumere las tecnologías utilizadas por la aplicación:",
+    "answer": "• Front-End: React, Angular o Vue.js (según el proyecto)\n• Back-End: Node.js, Python (Flask/Django), Java (Spring Boot) o .NET Core\n• Bases de Datos: AWS RDS (MySQL/PostgreSQL), DynamoDB o MongoDB (Atlas)\n• Infraestructura: AWS EC2, ECS, Lambda, S3, CloudFront y Cloudflare\n• CI/CD: GitHub Actions, Jenkins o GitLab CI\n• Monitorización y Logging: AWS CloudWatch, SIEM de terceros y el stack ELK (Elasticsearch, Logstash, Kibana)"
+  },
+  {
+    "category": "Services and layers",
+    "question": " ¿Qué tecnología se utiliza para separar los datos entre clientes diferentes?",
+    "answer": "Generalmente, utilizamos esquemas de bases de datos separados o una arquitectura multi-tenant con seguridad a nivel de filas, según el alcance del proyecto y los requisitos del cliente. Cada conjunto de datos se aísla lógicamente para evitar cruces, reforzado con encriptación y controles de acceso basados en roles."
+  },
+  {
+    "category": "Services and layers",
+    "question": " Describa las interacciones que la aplicación puede tener con otros productos, como servicios en la nube:",
+    "answer": "Nuestras aplicaciones se integran de manera modular con diversos servicios externos y cloud, tales como:\n• Gestión de Identidades: AWS Cognito, Auth0 o soluciones personalizadas de OAuth2\n• Pasarelas de Pago: Stripe, PayPal o APIs bancarias locales\n• Mensajería y Notificaciones: AWS SNS, Twilio, SendGrid o Slack Webhooks\n• Analítica: Google Analytics, AWS QuickSight o herramientas BI de terceros\n• Almacenamiento y Compartición: Buckets S3 seguros, Cloudflare R2 o Google Cloud Storage\nEste enfoque modular asegura escalabilidad y flexibilidad para adaptarse a las necesidades únicas de cada cliente."
+  },
+  {
+    "category": "Hypervisor & OS",
+    "question": " Enumere el hypervisor y el sistema operativo utilizados, especificando nombre y versión:",
+    "answer": "• Workstations: Apple macOS (varias versiones, generalmente la última estable)\n• Entornos de Servidor: Instancias Linux en AWS (principalmente Amazon Linux 2 y Ubuntu LTS); no utilizamos Windows Server.\n• Capa de Hypervisor: Nos apoyamos en la virtualización de AWS (Xen o Nitro, según la instancia) en lugar de gestionar un hypervisor propio, lo que garantiza una plataforma moderna y bien mantenida sin la sobrecarga de infraestructura on-premise."
+  },
+  {
+    "category": "Authentication",
+    "question": " Enumere los tipos de autenticación utilizados en la aplicación:",
+    "answer": "Implementamos principalmente OAuth2/OpenID Connect para la autenticación de usuarios, integrándonos frecuentemente con los proveedores de identidad corporativos (como Microsoft Azure AD). Dependiendo de los requisitos del proyecto, también admitimos configuraciones personalizadas basadas en nombre de usuario/contraseña, complementadas con controles de acceso basados en roles."
+  },
+  {
+    "category": "Authentication",
+    "question": " ¿Podemos usar SSO con integración SAML2?",
+    "answer": "Sí. Soportamos Single Sign-On utilizando SAML 2.0, OAuth2 o OpenID Connect. Por ejemplo, en la solución Timac Agro, se integró directamente con la plataforma de identidad de Microsoft para facilitar el acceso corporativo."
+  },
+  {
+    "category": "Authentication",
+    "question": " ¿Se implementa y exige la autenticación multifactor (MFA) para acceder a la aplicación?",
+    "answer": "Recomendamos encarecidamente y generalmente implementamos MFA para todos los roles administrativos. La obligatoriedad para usuarios finales varía según la política de seguridad del proyecto, ofreciendo opciones que van desde códigos vía SMS y aplicaciones TOTP hasta tokens de hardware, de acuerdo con los estándares de compliance y la experiencia deseada por el usuario."
+  }
+]
