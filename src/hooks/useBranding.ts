@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
-import _ from 'lodash';
 
 export interface Branding {
   companyName: string;
@@ -21,76 +20,75 @@ export interface MultipleBrandingConfig {
 
 export function useBranding() {
   const [isLoading, setIsLoading] = useState(true);
-  const [config, setConfig] = useState<MultipleBrandingConfig | null>(null);
   const [branding, setBranding] = useState<Branding | null>(null);
 
+  // Fetch config, resolve hostname branding, and apply meta tags in one pass
   useEffect(() => {
+    function resolveBranding(config: MultipleBrandingConfig): Branding {
+      config.default.logo = '/branding/default/logo.png';
+      config.default.favicon = '/branding/default/favicon/favicon.ico';
+
+      // Handle real domains first.
+      for (const domain of Object.keys(config.domains)) {
+        if (typeof config.domains[domain] !== 'string') {
+          const d = config.domains[domain];
+          d.logo = `/branding/${domain}/logo.png`;
+          d.favicon = `/branding/${domain}/favicon/favicon.ico`;
+        }
+      }
+
+      // Iterate over domains values that are strings (aliases) and resolve them to the actual domain
+      for (const domain of Object.keys(config.domains)) {
+        if (typeof config.domains[domain] === 'string') {
+          config.domains[domain] = config.domains[config.domains[domain]] || config.default;
+        }
+      }
+
+      const hostname = window.location.hostname;
+      if (hostname.includes('localhost')) {
+        return config.default;
+      }
+
+      return config.domains[hostname] || config.default;
+    }
+
+    function applyBranding(resolved: Branding) {
+      document.title = resolved.title;
+      updateMetaTags(resolved);
+
+      document.documentElement.style.setProperty('--theme-color', resolved.themeColor);
+      document.documentElement.style.setProperty('--theme-color-rgb', hexToRgb(resolved.themeColor));
+
+      const themeColorMeta = document.querySelector('meta[name="theme-color"]');
+      if (themeColorMeta) {
+        themeColorMeta.setAttribute('content', resolved.themeColor);
+      }
+    }
+
     axios.get('/branding/config.json')
       .then((response) => {
-        const config = response.data
-        config.default.logo = '/branding/default/logo.png'
-        config.default.favicon = '/branding/default/favicon/favicon.ico'
-
-        const domains = _.keys(config.domains) || []
-        for (const domain of domains) {
-          config.domains[domain].logo = `/branding/${domain}/logo.png`
-          config.domains[domain].favicon = `/branding/${domain}/favicon/favicon.ico`
-        }
-
-        setConfig(response.data);
-        console.log('Configurations loaded:', response.data);
+        const resolved = resolveBranding(response.data);
+        applyBranding(resolved);
+        setBranding(resolved);
+        setIsLoading(false);
       })
       .catch((error) => {
         console.error('Error loading configurations:', error);
 
-        setConfig({
-          domains: {},
-          default: {
-            companyName: "OUR COMPANY",
-            shortName: "OUR COMPANY",
-            title: "Central de Compliance",
-            logo: "/branding/default/logo.png",
-            favicon: "/branding/default/favicon/favicon.ico",
-            themeColor: "#BBA268",
-            description: "Central de Compliance - Políticas e diretrizes de conformidade."
-          }
-        })
-      })
-  }, [])
-
-  useEffect(() => {
-    if (config) {
-      const hostname = window.location.hostname;
-      if (hostname.includes('localhost')) {
-        setBranding(config.default);
-      } else if (config.domains[hostname]) {
-        setBranding(config.domains[hostname]);
-      } else {
-        setBranding(config.default);
-      }
-    }
-  }, [config])
-
-  useEffect(() => {
-    if (branding) {
-      // Update document title and metadata
-      document.title = branding.title;
-      updateMetaTags(branding);
-
-      // Apply theme color to CSS variables
-      document.documentElement.style.setProperty('--theme-color', branding.themeColor);
-      document.documentElement.style.setProperty('--theme-color-rgb', hexToRgb(branding.themeColor));
-
-      // Update theme-color meta tag
-      const themeColorMeta = document.querySelector('meta[name="theme-color"]');
-      if (themeColorMeta) {
-        themeColorMeta.setAttribute('content', branding.themeColor);
-      }
-
-      console.log('Branding updated:', branding);
-      setIsLoading(false);
-    }
-  }, [branding]);
+        const fallback: Branding = {
+          companyName: "OUR COMPANY",
+          shortName: "OUR COMPANY",
+          title: "Central de Compliance",
+          logo: "/branding/default/logo.png",
+          favicon: "/branding/default/favicon/favicon.ico",
+          themeColor: "#BBA268",
+          description: "Central de Compliance - Políticas e diretrizes de conformidade."
+        };
+        applyBranding(fallback);
+        setBranding(fallback);
+        setIsLoading(false);
+      });
+  }, []);
 
   // Update meta tags based on branding
   function updateMetaTags(branding: Branding) {

@@ -19,9 +19,7 @@ export function useComplianceData() {
       setIsLoading(true);
       fetchComplianceData(language).then((data) => {
         setComplianceItems(data);
-        setTimeout(() => {
-          setIsLoading(false);
-        }, 1000);
+        setIsLoading(false);
       });
     }
   }, [language]);

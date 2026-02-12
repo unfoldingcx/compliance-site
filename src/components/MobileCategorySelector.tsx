@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { useCategories } from "@/hooks/useComplianceData";
 import { useComplianceStore } from "@/store/complianceStore";
 import { useBranding } from "@/hooks/useBranding";
@@ -12,51 +12,8 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 import { ScrollArea } from "@/components/ui/scroll-area";
-import { ChevronDown, Filter, Grid, List, Menu } from "lucide-react";
-import {
-  FileText,
-  UserCheck,
-  Key,
-  Activity,
-  Lock,
-  Cog,
-  Radio,
-  AlertTriangle,
-  Briefcase,
-  Layout,
-  HardDrive,
-  Clock,
-  Shield,
-  FileCheck,
-  Cloud,
-  Code,
-  Layers,
-  Server,
-  KeyRound,
-} from "lucide-react";
-
-// Icon array in the specific order of categories
-const categoryIcons = [
-  FileText, // General and PSSI
-  UserCheck, // User awareness and training
-  Key, // Access Authorization Management
-  Activity, // Monitoring and Traceability
-  Lock, // Physical security
-  Cog, // Security related to operations
-  Radio, // Security of communications
-  AlertTriangle, // Incident Management
-  Briefcase, // Subcontracting Security
-  Layout, // Project Information Systems
-  HardDrive, // Backups Management
-  Clock, // Business Continuity
-  Shield, // Data Security
-  FileCheck, // Compliance
-  Cloud, // Hosting
-  Code, // Software
-  Layers, // Services and layers
-  Server, // Hypervisor & OS
-  KeyRound, // Authentication
-];
+import { ChevronDown, Filter, Grid, List, Menu, FileText } from "lucide-react";
+import { categoryIcons } from "@/constants/categoryIcons";
 
 const translations = {
   en_US: {
@@ -117,24 +74,6 @@ export function MobileCategorySelector() {
     Icon: index < categoryIcons.length ? categoryIcons[index] : FileText,
     index,
   }));
-
-  // Effect to update active category when language changes
-  useEffect(() => {
-    if (activeCategoryIndex !== null && categories.length > 0) {
-      if (activeCategoryIndex < categories.length) {
-        setActiveCategory(categories[activeCategoryIndex]);
-      } else {
-        // Reset if the index is out of bounds
-        setActiveCategoryByIndex(null);
-      }
-    }
-  }, [
-    language,
-    categories,
-    activeCategoryIndex,
-    setActiveCategory,
-    setActiveCategoryByIndex,
-  ]);
 
   // Get currently active category with icon
   const currentCategory = categoriesWithIcons.find(

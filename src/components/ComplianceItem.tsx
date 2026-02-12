@@ -1,3 +1,4 @@
+import { memo } from "react";
 import { ComplianceItem as ComplianceItemType } from "@/store/complianceStore";
 import {
   AccordionContent,
@@ -12,7 +13,7 @@ interface ComplianceItemProps {
   index: number;
 }
 
-export function ComplianceItem({ item, index }: ComplianceItemProps) {
+export const ComplianceItem = memo(function ComplianceItem({ item, index }: ComplianceItemProps) {
   return (
     <motion.div
       initial={{ opacity: 0, y: 20 }}
@@ -39,4 +40,4 @@ export function ComplianceItem({ item, index }: ComplianceItemProps) {
       </AccordionItem>
     </motion.div>
   );
-}
+});

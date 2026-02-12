@@ -79,9 +79,9 @@ function App() {
 
   return (
     <>
-      <AnimatePresence>{isLoading && <LoadingScreen />}</AnimatePresence>
+      <AnimatePresence>{isLoading ? <LoadingScreen /> : null}</AnimatePresence>
 
-      {!isLoading && (
+      {isLoading ? null : (
         <div className="min-h-screen flex flex-col w-full bg-gradient-to-b from-background to-background/90">
           <Header />
 

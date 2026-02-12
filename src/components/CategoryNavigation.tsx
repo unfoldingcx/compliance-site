@@ -4,51 +4,9 @@ import { useBranding } from '@/hooks/useBranding';
 import { Button } from '@/components/ui/button';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { cn } from '@/lib/utils';
-import { 
-  FileText, 
-  UserCheck, 
-  Key, 
-  Activity, 
-  Lock, 
-  Cog, 
-  Radio, 
-  AlertTriangle,
-  Briefcase,
-  Layout,
-  HardDrive, 
-  Clock, 
-  Shield, 
-  FileCheck, 
-  Cloud, 
-  Code, 
-  Layers, 
-  Server, 
-  KeyRound
-} from 'lucide-react';
-import { useMemo, useEffect } from 'react';
-
-// Icon array in the specific order of categories
-const categoryIcons = [
-  FileText,      // General and PSSI
-  UserCheck,     // User awareness and training
-  Key,           // Access Authorization Management
-  Activity,      // Monitoring and Traceability
-  Lock,          // Physical security
-  Cog,           // Security related to operations
-  Radio,         // Security of communications
-  AlertTriangle, // Incident Management
-  Briefcase,     // Subcontracting Security
-  Layout,        // Project Information Systems
-  HardDrive,     // Backups Management
-  Clock,         // Business Continuity
-  Shield,        // Data Security
-  FileCheck,     // Compliance
-  Cloud,         // Hosting
-  Code,          // Software
-  Layers,        // Services and layers
-  Server,        // Hypervisor & OS
-  KeyRound       // Authentication
-];
+import { FileText } from 'lucide-react';
+import { useMemo } from 'react';
+import { categoryIcons } from '@/constants/categoryIcons';
 
 const translations = {
   en_US: {
@@ -68,14 +26,16 @@ const translations = {
   }
 };
 
+const SKELETON_ITEMS = Array.from({ length: 5 });
+
 export function CategoryNavigation() {
   const { categories, isLoading } = useCategories();
-  const { 
-    activeCategory, 
-    activeCategoryIndex, 
-    setActiveCategory, 
-    setActiveCategoryByIndex, 
-    language 
+  const {
+    activeCategory,
+    activeCategoryIndex,
+    setActiveCategory,
+    setActiveCategoryByIndex,
+    language,
   } = useComplianceStore();
   const { branding } = useBranding();
   
@@ -91,22 +51,10 @@ export function CategoryNavigation() {
     }));
   }, [categories]);
 
-  // Effect to update active category when language changes
-  useEffect(() => {
-    if (activeCategoryIndex !== null && categories.length > 0) {
-      if (activeCategoryIndex < categories.length) {
-        setActiveCategory(categories[activeCategoryIndex]);
-      } else {
-        // Reset if the index is out of bounds
-        setActiveCategoryByIndex(null);
-      }
-    }
-  }, [language, categories, activeCategoryIndex, setActiveCategory, setActiveCategoryByIndex]);
-
   if (isLoading) {
     return (
       <div className="p-4 space-y-4">
-        {Array.from({ length: 5 }).map((_, i) => (
+        {SKELETON_ITEMS.map((_, i) => (
           <div key={i} className="h-10 bg-muted rounded animate-pulse" />
         ))}
       </div>
